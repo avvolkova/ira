@@ -1,5 +1,5 @@
 body {
-    background: #140505;
+    background: #8195e6;
     height: 100vh;
     overflow: hidden;
     display: flex;
@@ -28,7 +28,7 @@ div {
     color: #fd3203;
     -webkit-clip-path: polygon(0% 0%, 0% 50%, 10% 50%);
     clip-path: polygon(0% 0%, 0% 50%, 10% 50%);
-    transform-origin: 8% -13%;
+    transform-origin: -7% -31%;
     -webkit-animation: fly1 5000ms 0ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly1 5000ms 0ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -36,11 +36,11 @@ div {
 @-webkit-keyframes fly1 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-239deg) rotateY(1deg) rotateZ(-407deg) translateZ(-2426px);
+        transform: translate(-50%, -50%) rotateX(415deg) rotateY(169deg) rotateZ(66deg) translateZ(-1950px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-239deg) rotateY(1deg) rotateZ(-407deg) translateZ(-2426px);
+        transform: translate(-50%, -50%) rotateX(415deg) rotateY(169deg) rotateZ(66deg) translateZ(-1950px);
     }
     90% {
         opacity: 1;
@@ -55,11 +55,11 @@ div {
 @keyframes fly1 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-239deg) rotateY(1deg) rotateZ(-407deg) translateZ(-2426px);
+        transform: translate(-50%, -50%) rotateX(415deg) rotateY(169deg) rotateZ(66deg) translateZ(-1950px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-239deg) rotateY(1deg) rotateZ(-407deg) translateZ(-2426px);
+        transform: translate(-50%, -50%) rotateX(415deg) rotateY(169deg) rotateZ(66deg) translateZ(-1950px);
     }
     90% {
         opacity: 1;
@@ -75,7 +75,7 @@ div {
     color: #fb3106;
     -webkit-clip-path: polygon(0% 0%, 10% 0%, 10% 50%);
     clip-path: polygon(0% 0%, 10% 0%, 10% 50%);
-    transform-origin: -14% 14%;
+    transform-origin: 11% 26%;
     -webkit-animation: fly2 5000ms 40ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly2 5000ms 40ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -83,11 +83,11 @@ div {
 @-webkit-keyframes fly2 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-56deg) rotateY(-6deg) rotateZ(147deg) translateZ(-1569px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(481deg) rotateZ(232deg) translateZ(34px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-56deg) rotateY(-6deg) rotateZ(147deg) translateZ(-1569px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(481deg) rotateZ(232deg) translateZ(34px);
     }
     90% {
         opacity: 1;
@@ -102,11 +102,11 @@ div {
 @keyframes fly2 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-56deg) rotateY(-6deg) rotateZ(147deg) translateZ(-1569px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(481deg) rotateZ(232deg) translateZ(34px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-56deg) rotateY(-6deg) rotateZ(147deg) translateZ(-1569px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(481deg) rotateZ(232deg) translateZ(34px);
     }
     90% {
         opacity: 1;
@@ -122,7 +122,7 @@ div {
     color: #f93109;
     -webkit-clip-path: polygon(10% 0%, 10% 50%, 20% 50%);
     clip-path: polygon(10% 0%, 10% 50%, 20% 50%);
-    transform-origin: 26% -22%;
+    transform-origin: -27% -38%;
     -webkit-animation: fly3 5000ms 80ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly3 5000ms 80ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -130,11 +130,11 @@ div {
 @-webkit-keyframes fly3 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-289deg) rotateZ(-125deg) translateZ(-1081px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(71deg) rotateZ(322deg) translateZ(376px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-289deg) rotateZ(-125deg) translateZ(-1081px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(71deg) rotateZ(322deg) translateZ(376px);
     }
     90% {
         opacity: 1;
@@ -149,11 +149,11 @@ div {
 @keyframes fly3 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-289deg) rotateZ(-125deg) translateZ(-1081px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(71deg) rotateZ(322deg) translateZ(376px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-289deg) rotateZ(-125deg) translateZ(-1081px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(71deg) rotateZ(322deg) translateZ(376px);
     }
     90% {
         opacity: 1;
@@ -169,7 +169,7 @@ div {
     color: #f7300c;
     -webkit-clip-path: polygon(10% 0%, 20% 0%, 20% 50%);
     clip-path: polygon(10% 0%, 20% 0%, 20% 50%);
-    transform-origin: 55% -10%;
+    transform-origin: 58% -7%;
     -webkit-animation: fly4 5000ms 120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly4 5000ms 120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -177,11 +177,11 @@ div {
 @-webkit-keyframes fly4 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(224deg) rotateY(-232deg) rotateZ(-212deg) translateZ(-169px);
+        transform: translate(-50%, -50%) rotateX(-313deg) rotateY(-471deg) rotateZ(-365deg) translateZ(-1805px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(224deg) rotateY(-232deg) rotateZ(-212deg) translateZ(-169px);
+        transform: translate(-50%, -50%) rotateX(-313deg) rotateY(-471deg) rotateZ(-365deg) translateZ(-1805px);
     }
     90% {
         opacity: 1;
@@ -196,11 +196,11 @@ div {
 @keyframes fly4 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(224deg) rotateY(-232deg) rotateZ(-212deg) translateZ(-169px);
+        transform: translate(-50%, -50%) rotateX(-313deg) rotateY(-471deg) rotateZ(-365deg) translateZ(-1805px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(224deg) rotateY(-232deg) rotateZ(-212deg) translateZ(-169px);
+        transform: translate(-50%, -50%) rotateX(-313deg) rotateY(-471deg) rotateZ(-365deg) translateZ(-1805px);
     }
     90% {
         opacity: 1;
@@ -216,7 +216,7 @@ div {
     color: #f5300f;
     -webkit-clip-path: polygon(20% 0%, 20% 50%, 30% 50%);
     clip-path: polygon(20% 0%, 20% 50%, 30% 50%);
-    transform-origin: 40% -46%;
+    transform-origin: 0% 5%;
     -webkit-animation: fly5 5000ms 160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly5 5000ms 160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -224,11 +224,11 @@ div {
 @-webkit-keyframes fly5 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-55deg) rotateY(5deg) rotateZ(195deg) translateZ(-961px);
+        transform: translate(-50%, -50%) rotateX(-34deg) rotateY(108deg) rotateZ(-445deg) translateZ(-372px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-55deg) rotateY(5deg) rotateZ(195deg) translateZ(-961px);
+        transform: translate(-50%, -50%) rotateX(-34deg) rotateY(108deg) rotateZ(-445deg) translateZ(-372px);
     }
     90% {
         opacity: 1;
@@ -243,11 +243,11 @@ div {
 @keyframes fly5 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-55deg) rotateY(5deg) rotateZ(195deg) translateZ(-961px);
+        transform: translate(-50%, -50%) rotateX(-34deg) rotateY(108deg) rotateZ(-445deg) translateZ(-372px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-55deg) rotateY(5deg) rotateZ(195deg) translateZ(-961px);
+        transform: translate(-50%, -50%) rotateX(-34deg) rotateY(108deg) rotateZ(-445deg) translateZ(-372px);
     }
     90% {
         opacity: 1;
@@ -263,7 +263,7 @@ div {
     color: #f32f12;
     -webkit-clip-path: polygon(20% 0%, 30% 0%, 30% 50%);
     clip-path: polygon(20% 0%, 30% 0%, 30% 50%);
-    transform-origin: 47% -9%;
+    transform-origin: 39% 50%;
     -webkit-animation: fly6 5000ms 200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly6 5000ms 200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -271,11 +271,11 @@ div {
 @-webkit-keyframes fly6 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-258deg) rotateY(-336deg) rotateZ(321deg) translateZ(-925px);
+        transform: translate(-50%, -50%) rotateX(-496deg) rotateY(-314deg) rotateZ(252deg) translateZ(-804px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-258deg) rotateY(-336deg) rotateZ(321deg) translateZ(-925px);
+        transform: translate(-50%, -50%) rotateX(-496deg) rotateY(-314deg) rotateZ(252deg) translateZ(-804px);
     }
     90% {
         opacity: 1;
@@ -290,11 +290,11 @@ div {
 @keyframes fly6 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-258deg) rotateY(-336deg) rotateZ(321deg) translateZ(-925px);
+        transform: translate(-50%, -50%) rotateX(-496deg) rotateY(-314deg) rotateZ(252deg) translateZ(-804px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-258deg) rotateY(-336deg) rotateZ(321deg) translateZ(-925px);
+        transform: translate(-50%, -50%) rotateX(-496deg) rotateY(-314deg) rotateZ(252deg) translateZ(-804px);
     }
     90% {
         opacity: 1;
@@ -310,7 +310,7 @@ div {
     color: #f12f15;
     -webkit-clip-path: polygon(30% 0%, 30% 50%, 40% 50%);
     clip-path: polygon(30% 0%, 30% 50%, 40% 50%);
-    transform-origin: 34% -20%;
+    transform-origin: 28% 18%;
     -webkit-animation: fly7 5000ms 240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly7 5000ms 240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -318,11 +318,11 @@ div {
 @-webkit-keyframes fly7 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(248deg) rotateY(376deg) rotateZ(402deg) translateZ(-2296px);
+        transform: translate(-50%, -50%) rotateX(16deg) rotateY(78deg) rotateZ(-234deg) translateZ(-1976px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(248deg) rotateY(376deg) rotateZ(402deg) translateZ(-2296px);
+        transform: translate(-50%, -50%) rotateX(16deg) rotateY(78deg) rotateZ(-234deg) translateZ(-1976px);
     }
     90% {
         opacity: 1;
@@ -337,11 +337,11 @@ div {
 @keyframes fly7 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(248deg) rotateY(376deg) rotateZ(402deg) translateZ(-2296px);
+        transform: translate(-50%, -50%) rotateX(16deg) rotateY(78deg) rotateZ(-234deg) translateZ(-1976px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(248deg) rotateY(376deg) rotateZ(402deg) translateZ(-2296px);
+        transform: translate(-50%, -50%) rotateX(16deg) rotateY(78deg) rotateZ(-234deg) translateZ(-1976px);
     }
     90% {
         opacity: 1;
@@ -357,7 +357,7 @@ div {
     color: #ef2e18;
     -webkit-clip-path: polygon(30% 0%, 40% 0%, 40% 50%);
     clip-path: polygon(30% 0%, 40% 0%, 40% 50%);
-    transform-origin: 6% -23%;
+    transform-origin: 63% 35%;
     -webkit-animation: fly8 5000ms 280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly8 5000ms 280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -365,11 +365,11 @@ div {
 @-webkit-keyframes fly8 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-56deg) rotateZ(266deg) translateZ(-1377px);
+        transform: translate(-50%, -50%) rotateX(-213deg) rotateY(-9deg) rotateZ(207deg) translateZ(392px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-56deg) rotateZ(266deg) translateZ(-1377px);
+        transform: translate(-50%, -50%) rotateX(-213deg) rotateY(-9deg) rotateZ(207deg) translateZ(392px);
     }
     90% {
         opacity: 1;
@@ -384,11 +384,11 @@ div {
 @keyframes fly8 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-56deg) rotateZ(266deg) translateZ(-1377px);
+        transform: translate(-50%, -50%) rotateX(-213deg) rotateY(-9deg) rotateZ(207deg) translateZ(392px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-56deg) rotateZ(266deg) translateZ(-1377px);
+        transform: translate(-50%, -50%) rotateX(-213deg) rotateY(-9deg) rotateZ(207deg) translateZ(392px);
     }
     90% {
         opacity: 1;
@@ -404,7 +404,7 @@ div {
     color: #ed2e1b;
     -webkit-clip-path: polygon(40% 0%, 40% 50%, 50% 50%);
     clip-path: polygon(40% 0%, 40% 50%, 50% 50%);
-    transform-origin: 37% 24%;
+    transform-origin: 48% -5%;
     -webkit-animation: fly9 5000ms 320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly9 5000ms 320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -412,11 +412,11 @@ div {
 @-webkit-keyframes fly9 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-217deg) rotateY(-224deg) rotateZ(241deg) translateZ(-786px);
+        transform: translate(-50%, -50%) rotateX(-123deg) rotateY(33deg) rotateZ(305deg) translateZ(393px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-217deg) rotateY(-224deg) rotateZ(241deg) translateZ(-786px);
+        transform: translate(-50%, -50%) rotateX(-123deg) rotateY(33deg) rotateZ(305deg) translateZ(393px);
     }
     90% {
         opacity: 1;
@@ -431,11 +431,11 @@ div {
 @keyframes fly9 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-217deg) rotateY(-224deg) rotateZ(241deg) translateZ(-786px);
+        transform: translate(-50%, -50%) rotateX(-123deg) rotateY(33deg) rotateZ(305deg) translateZ(393px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-217deg) rotateY(-224deg) rotateZ(241deg) translateZ(-786px);
+        transform: translate(-50%, -50%) rotateX(-123deg) rotateY(33deg) rotateZ(305deg) translateZ(393px);
     }
     90% {
         opacity: 1;
@@ -451,7 +451,7 @@ div {
     color: #eb2d1e;
     -webkit-clip-path: polygon(40% 0%, 50% 0%, 50% 50%);
     clip-path: polygon(40% 0%, 50% 0%, 50% 50%);
-    transform-origin: 45% 47%;
+    transform-origin: 2% -17%;
     -webkit-animation: fly10 5000ms 360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly10 5000ms 360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -459,11 +459,11 @@ div {
 @-webkit-keyframes fly10 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-158deg) rotateY(267deg) rotateZ(310deg) translateZ(-890px);
+        transform: translate(-50%, -50%) rotateX(142deg) rotateY(389deg) rotateZ(482deg) translateZ(-319px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-158deg) rotateY(267deg) rotateZ(310deg) translateZ(-890px);
+        transform: translate(-50%, -50%) rotateX(142deg) rotateY(389deg) rotateZ(482deg) translateZ(-319px);
     }
     90% {
         opacity: 1;
@@ -478,11 +478,11 @@ div {
 @keyframes fly10 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-158deg) rotateY(267deg) rotateZ(310deg) translateZ(-890px);
+        transform: translate(-50%, -50%) rotateX(142deg) rotateY(389deg) rotateZ(482deg) translateZ(-319px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-158deg) rotateY(267deg) rotateZ(310deg) translateZ(-890px);
+        transform: translate(-50%, -50%) rotateX(142deg) rotateY(389deg) rotateZ(482deg) translateZ(-319px);
     }
     90% {
         opacity: 1;
@@ -498,7 +498,7 @@ div {
     color: #e92d21;
     -webkit-clip-path: polygon(50% 0%, 50% 50%, 60% 50%);
     clip-path: polygon(50% 0%, 50% 50%, 60% 50%);
-    transform-origin: 58% 50%;
+    transform-origin: 57% 3%;
     -webkit-animation: fly11 5000ms 400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly11 5000ms 400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -506,11 +506,11 @@ div {
 @-webkit-keyframes fly11 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-105deg) rotateY(-460deg) rotateZ(226deg) translateZ(-651px);
+        transform: translate(-50%, -50%) rotateX(54deg) rotateY(-58deg) rotateZ(194deg) translateZ(-1481px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-105deg) rotateY(-460deg) rotateZ(226deg) translateZ(-651px);
+        transform: translate(-50%, -50%) rotateX(54deg) rotateY(-58deg) rotateZ(194deg) translateZ(-1481px);
     }
     90% {
         opacity: 1;
@@ -525,11 +525,11 @@ div {
 @keyframes fly11 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-105deg) rotateY(-460deg) rotateZ(226deg) translateZ(-651px);
+        transform: translate(-50%, -50%) rotateX(54deg) rotateY(-58deg) rotateZ(194deg) translateZ(-1481px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-105deg) rotateY(-460deg) rotateZ(226deg) translateZ(-651px);
+        transform: translate(-50%, -50%) rotateX(54deg) rotateY(-58deg) rotateZ(194deg) translateZ(-1481px);
     }
     90% {
         opacity: 1;
@@ -545,7 +545,7 @@ div {
     color: #e72c24;
     -webkit-clip-path: polygon(50% 0%, 60% 0%, 60% 50%);
     clip-path: polygon(50% 0%, 60% 0%, 60% 50%);
-    transform-origin: 27% 20%;
+    transform-origin: 19% 45%;
     -webkit-animation: fly12 5000ms 440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly12 5000ms 440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -553,11 +553,11 @@ div {
 @-webkit-keyframes fly12 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-365deg) rotateY(-402deg) rotateZ(288deg) translateZ(-1393px);
+        transform: translate(-50%, -50%) rotateX(237deg) rotateY(45deg) rotateZ(-274deg) translateZ(-170px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-365deg) rotateY(-402deg) rotateZ(288deg) translateZ(-1393px);
+        transform: translate(-50%, -50%) rotateX(237deg) rotateY(45deg) rotateZ(-274deg) translateZ(-170px);
     }
     90% {
         opacity: 1;
@@ -572,11 +572,11 @@ div {
 @keyframes fly12 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-365deg) rotateY(-402deg) rotateZ(288deg) translateZ(-1393px);
+        transform: translate(-50%, -50%) rotateX(237deg) rotateY(45deg) rotateZ(-274deg) translateZ(-170px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-365deg) rotateY(-402deg) rotateZ(288deg) translateZ(-1393px);
+        transform: translate(-50%, -50%) rotateX(237deg) rotateY(45deg) rotateZ(-274deg) translateZ(-170px);
     }
     90% {
         opacity: 1;
@@ -592,7 +592,7 @@ div {
     color: #e52c27;
     -webkit-clip-path: polygon(60% 0%, 60% 50%, 70% 50%);
     clip-path: polygon(60% 0%, 60% 50%, 70% 50%);
-    transform-origin: 52% 35%;
+    transform-origin: 108% 3%;
     -webkit-animation: fly13 5000ms 480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly13 5000ms 480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -600,11 +600,11 @@ div {
 @-webkit-keyframes fly13 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-447deg) rotateY(175deg) rotateZ(-357deg) translateZ(449px);
+        transform: translate(-50%, -50%) rotateX(-109deg) rotateY(-461deg) rotateZ(-498deg) translateZ(-1325px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-447deg) rotateY(175deg) rotateZ(-357deg) translateZ(449px);
+        transform: translate(-50%, -50%) rotateX(-109deg) rotateY(-461deg) rotateZ(-498deg) translateZ(-1325px);
     }
     90% {
         opacity: 1;
@@ -619,11 +619,11 @@ div {
 @keyframes fly13 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-447deg) rotateY(175deg) rotateZ(-357deg) translateZ(449px);
+        transform: translate(-50%, -50%) rotateX(-109deg) rotateY(-461deg) rotateZ(-498deg) translateZ(-1325px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-447deg) rotateY(175deg) rotateZ(-357deg) translateZ(449px);
+        transform: translate(-50%, -50%) rotateX(-109deg) rotateY(-461deg) rotateZ(-498deg) translateZ(-1325px);
     }
     90% {
         opacity: 1;
@@ -639,7 +639,7 @@ div {
     color: #e32b2a;
     -webkit-clip-path: polygon(60% 0%, 70% 0%, 70% 50%);
     clip-path: polygon(60% 0%, 70% 0%, 70% 50%);
-    transform-origin: 33% 20%;
+    transform-origin: 74% -8%;
     -webkit-animation: fly14 5000ms 520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly14 5000ms 520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -647,11 +647,11 @@ div {
 @-webkit-keyframes fly14 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(-5deg) rotateZ(416deg) translateZ(-490px);
+        transform: translate(-50%, -50%) rotateX(-411deg) rotateY(-456deg) rotateZ(450deg) translateZ(-1988px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(-5deg) rotateZ(416deg) translateZ(-490px);
+        transform: translate(-50%, -50%) rotateX(-411deg) rotateY(-456deg) rotateZ(450deg) translateZ(-1988px);
     }
     90% {
         opacity: 1;
@@ -666,11 +666,11 @@ div {
 @keyframes fly14 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(-5deg) rotateZ(416deg) translateZ(-490px);
+        transform: translate(-50%, -50%) rotateX(-411deg) rotateY(-456deg) rotateZ(450deg) translateZ(-1988px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(-5deg) rotateZ(416deg) translateZ(-490px);
+        transform: translate(-50%, -50%) rotateX(-411deg) rotateY(-456deg) rotateZ(450deg) translateZ(-1988px);
     }
     90% {
         opacity: 1;
@@ -686,7 +686,7 @@ div {
     color: #e12b2d;
     -webkit-clip-path: polygon(70% 0%, 70% 50%, 80% 50%);
     clip-path: polygon(70% 0%, 70% 50%, 80% 50%);
-    transform-origin: 112% 49%;
+    transform-origin: 57% -3%;
     -webkit-animation: fly15 5000ms 560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly15 5000ms 560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -694,11 +694,11 @@ div {
 @-webkit-keyframes fly15 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(55deg) rotateY(385deg) rotateZ(-328deg) translateZ(-2353px);
+        transform: translate(-50%, -50%) rotateX(274deg) rotateY(-28deg) rotateZ(386deg) translateZ(271px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(55deg) rotateY(385deg) rotateZ(-328deg) translateZ(-2353px);
+        transform: translate(-50%, -50%) rotateX(274deg) rotateY(-28deg) rotateZ(386deg) translateZ(271px);
     }
     90% {
         opacity: 1;
@@ -713,11 +713,11 @@ div {
 @keyframes fly15 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(55deg) rotateY(385deg) rotateZ(-328deg) translateZ(-2353px);
+        transform: translate(-50%, -50%) rotateX(274deg) rotateY(-28deg) rotateZ(386deg) translateZ(271px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(55deg) rotateY(385deg) rotateZ(-328deg) translateZ(-2353px);
+        transform: translate(-50%, -50%) rotateX(274deg) rotateY(-28deg) rotateZ(386deg) translateZ(271px);
     }
     90% {
         opacity: 1;
@@ -733,7 +733,7 @@ div {
     color: #df2a30;
     -webkit-clip-path: polygon(70% 0%, 80% 0%, 80% 50%);
     clip-path: polygon(70% 0%, 80% 0%, 80% 50%);
-    transform-origin: 52% -12%;
+    transform-origin: 72% -30%;
     -webkit-animation: fly16 5000ms 600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly16 5000ms 600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -741,11 +741,11 @@ div {
 @-webkit-keyframes fly16 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(194deg) rotateZ(-54deg) translateZ(103px);
+        transform: translate(-50%, -50%) rotateX(62deg) rotateY(103deg) rotateZ(17deg) translateZ(-2129px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(194deg) rotateZ(-54deg) translateZ(103px);
+        transform: translate(-50%, -50%) rotateX(62deg) rotateY(103deg) rotateZ(17deg) translateZ(-2129px);
     }
     90% {
         opacity: 1;
@@ -760,11 +760,11 @@ div {
 @keyframes fly16 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(194deg) rotateZ(-54deg) translateZ(103px);
+        transform: translate(-50%, -50%) rotateX(62deg) rotateY(103deg) rotateZ(17deg) translateZ(-2129px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(194deg) rotateZ(-54deg) translateZ(103px);
+        transform: translate(-50%, -50%) rotateX(62deg) rotateY(103deg) rotateZ(17deg) translateZ(-2129px);
     }
     90% {
         opacity: 1;
@@ -780,7 +780,7 @@ div {
     color: #dd2a33;
     -webkit-clip-path: polygon(80% 0%, 80% 50%, 90% 50%);
     clip-path: polygon(80% 0%, 80% 50%, 90% 50%);
-    transform-origin: 100% 13%;
+    transform-origin: 87% 32%;
     -webkit-animation: fly17 5000ms 640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly17 5000ms 640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -788,11 +788,11 @@ div {
 @-webkit-keyframes fly17 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-137deg) rotateY(349deg) rotateZ(-107deg) translateZ(-2068px);
+        transform: translate(-50%, -50%) rotateX(41deg) rotateY(398deg) rotateZ(253deg) translateZ(-1776px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-137deg) rotateY(349deg) rotateZ(-107deg) translateZ(-2068px);
+        transform: translate(-50%, -50%) rotateX(41deg) rotateY(398deg) rotateZ(253deg) translateZ(-1776px);
     }
     90% {
         opacity: 1;
@@ -807,11 +807,11 @@ div {
 @keyframes fly17 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-137deg) rotateY(349deg) rotateZ(-107deg) translateZ(-2068px);
+        transform: translate(-50%, -50%) rotateX(41deg) rotateY(398deg) rotateZ(253deg) translateZ(-1776px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-137deg) rotateY(349deg) rotateZ(-107deg) translateZ(-2068px);
+        transform: translate(-50%, -50%) rotateX(41deg) rotateY(398deg) rotateZ(253deg) translateZ(-1776px);
     }
     90% {
         opacity: 1;
@@ -827,7 +827,7 @@ div {
     color: #db2936;
     -webkit-clip-path: polygon(80% 0%, 90% 0%, 90% 50%);
     clip-path: polygon(80% 0%, 90% 0%, 90% 50%);
-    transform-origin: 120% 47%;
+    transform-origin: 115% 24%;
     -webkit-animation: fly18 5000ms 680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly18 5000ms 680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -835,11 +835,11 @@ div {
 @-webkit-keyframes fly18 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(452deg) rotateY(108deg) rotateZ(-324deg) translateZ(-1120px);
+        transform: translate(-50%, -50%) rotateX(-126deg) rotateY(495deg) rotateZ(-213deg) translateZ(-1770px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(452deg) rotateY(108deg) rotateZ(-324deg) translateZ(-1120px);
+        transform: translate(-50%, -50%) rotateX(-126deg) rotateY(495deg) rotateZ(-213deg) translateZ(-1770px);
     }
     90% {
         opacity: 1;
@@ -854,11 +854,11 @@ div {
 @keyframes fly18 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(452deg) rotateY(108deg) rotateZ(-324deg) translateZ(-1120px);
+        transform: translate(-50%, -50%) rotateX(-126deg) rotateY(495deg) rotateZ(-213deg) translateZ(-1770px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(452deg) rotateY(108deg) rotateZ(-324deg) translateZ(-1120px);
+        transform: translate(-50%, -50%) rotateX(-126deg) rotateY(495deg) rotateZ(-213deg) translateZ(-1770px);
     }
     90% {
         opacity: 1;
@@ -874,7 +874,7 @@ div {
     color: #d92939;
     -webkit-clip-path: polygon(90% 0%, 90% 50%, 100% 50%);
     clip-path: polygon(90% 0%, 90% 50%, 100% 50%);
-    transform-origin: 62% 13%;
+    transform-origin: 41% 50%;
     -webkit-animation: fly19 5000ms 720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly19 5000ms 720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -882,11 +882,11 @@ div {
 @-webkit-keyframes fly19 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(406deg) rotateY(391deg) rotateZ(-453deg) translateZ(-1108px);
+        transform: translate(-50%, -50%) rotateX(3deg) rotateY(126deg) rotateZ(132deg) translateZ(-1250px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(406deg) rotateY(391deg) rotateZ(-453deg) translateZ(-1108px);
+        transform: translate(-50%, -50%) rotateX(3deg) rotateY(126deg) rotateZ(132deg) translateZ(-1250px);
     }
     90% {
         opacity: 1;
@@ -901,11 +901,11 @@ div {
 @keyframes fly19 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(406deg) rotateY(391deg) rotateZ(-453deg) translateZ(-1108px);
+        transform: translate(-50%, -50%) rotateX(3deg) rotateY(126deg) rotateZ(132deg) translateZ(-1250px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(406deg) rotateY(391deg) rotateZ(-453deg) translateZ(-1108px);
+        transform: translate(-50%, -50%) rotateX(3deg) rotateY(126deg) rotateZ(132deg) translateZ(-1250px);
     }
     90% {
         opacity: 1;
@@ -921,7 +921,7 @@ div {
     color: #d7283c;
     -webkit-clip-path: polygon(90% 0%, 100% 0%, 100% 50%);
     clip-path: polygon(90% 0%, 100% 0%, 100% 50%);
-    transform-origin: 114% -17%;
+    transform-origin: 56% 11%;
     -webkit-animation: fly20 5000ms 760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly20 5000ms 760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -929,11 +929,11 @@ div {
 @-webkit-keyframes fly20 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(299deg) rotateY(102deg) rotateZ(335deg) translateZ(-363px);
+        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-175deg) rotateZ(-122deg) translateZ(236px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(299deg) rotateY(102deg) rotateZ(335deg) translateZ(-363px);
+        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-175deg) rotateZ(-122deg) translateZ(236px);
     }
     90% {
         opacity: 1;
@@ -948,11 +948,11 @@ div {
 @keyframes fly20 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(299deg) rotateY(102deg) rotateZ(335deg) translateZ(-363px);
+        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-175deg) rotateZ(-122deg) translateZ(236px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(299deg) rotateY(102deg) rotateZ(335deg) translateZ(-363px);
+        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-175deg) rotateZ(-122deg) translateZ(236px);
     }
     90% {
         opacity: 1;
@@ -968,7 +968,7 @@ div {
     color: #d5283f;
     -webkit-clip-path: polygon(0% 50%, 0% 100%, 10% 100%);
     clip-path: polygon(0% 50%, 0% 100%, 10% 100%);
-    transform-origin: -28% 89%;
+    transform-origin: -28% 60%;
     -webkit-animation: fly21 5000ms 800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly21 5000ms 800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -976,11 +976,11 @@ div {
 @-webkit-keyframes fly21 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(26deg) rotateY(-459deg) rotateZ(356deg) translateZ(95px);
+        transform: translate(-50%, -50%) rotateX(-488deg) rotateY(248deg) rotateZ(123deg) translateZ(-707px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(26deg) rotateY(-459deg) rotateZ(356deg) translateZ(95px);
+        transform: translate(-50%, -50%) rotateX(-488deg) rotateY(248deg) rotateZ(123deg) translateZ(-707px);
     }
     90% {
         opacity: 1;
@@ -995,11 +995,11 @@ div {
 @keyframes fly21 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(26deg) rotateY(-459deg) rotateZ(356deg) translateZ(95px);
+        transform: translate(-50%, -50%) rotateX(-488deg) rotateY(248deg) rotateZ(123deg) translateZ(-707px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(26deg) rotateY(-459deg) rotateZ(356deg) translateZ(95px);
+        transform: translate(-50%, -50%) rotateX(-488deg) rotateY(248deg) rotateZ(123deg) translateZ(-707px);
     }
     90% {
         opacity: 1;
@@ -1015,7 +1015,7 @@ div {
     color: #d32742;
     -webkit-clip-path: polygon(0% 50%, 10% 50%, 10% 100%);
     clip-path: polygon(0% 50%, 10% 50%, 10% 100%);
-    transform-origin: 31% 28%;
+    transform-origin: 29% 4%;
     -webkit-animation: fly22 5000ms 840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly22 5000ms 840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1023,11 +1023,11 @@ div {
 @-webkit-keyframes fly22 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-278deg) rotateZ(433deg) translateZ(463px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-497deg) rotateZ(-400deg) translateZ(-129px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-278deg) rotateZ(433deg) translateZ(463px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-497deg) rotateZ(-400deg) translateZ(-129px);
     }
     90% {
         opacity: 1;
@@ -1042,11 +1042,11 @@ div {
 @keyframes fly22 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-278deg) rotateZ(433deg) translateZ(463px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-497deg) rotateZ(-400deg) translateZ(-129px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-278deg) rotateZ(433deg) translateZ(463px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-497deg) rotateZ(-400deg) translateZ(-129px);
     }
     90% {
         opacity: 1;
@@ -1062,7 +1062,7 @@ div {
     color: #d12745;
     -webkit-clip-path: polygon(10% 50%, 10% 100%, 20% 100%);
     clip-path: polygon(10% 50%, 10% 100%, 20% 100%);
-    transform-origin: -26% 53%;
+    transform-origin: 55% 36%;
     -webkit-animation: fly23 5000ms 880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly23 5000ms 880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1070,11 +1070,11 @@ div {
 @-webkit-keyframes fly23 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-175deg) rotateY(-308deg) rotateZ(-238deg) translateZ(-1964px);
+        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-109deg) rotateZ(-73deg) translateZ(-59px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-175deg) rotateY(-308deg) rotateZ(-238deg) translateZ(-1964px);
+        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-109deg) rotateZ(-73deg) translateZ(-59px);
     }
     90% {
         opacity: 1;
@@ -1089,11 +1089,11 @@ div {
 @keyframes fly23 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-175deg) rotateY(-308deg) rotateZ(-238deg) translateZ(-1964px);
+        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-109deg) rotateZ(-73deg) translateZ(-59px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-175deg) rotateY(-308deg) rotateZ(-238deg) translateZ(-1964px);
+        transform: translate(-50%, -50%) rotateX(-445deg) rotateY(-109deg) rotateZ(-73deg) translateZ(-59px);
     }
     90% {
         opacity: 1;
@@ -1109,7 +1109,7 @@ div {
     color: #cf2648;
     -webkit-clip-path: polygon(10% 50%, 20% 50%, 20% 100%);
     clip-path: polygon(10% 50%, 20% 50%, 20% 100%);
-    transform-origin: 0% 15%;
+    transform-origin: 42% 55%;
     -webkit-animation: fly24 5000ms 920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly24 5000ms 920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1117,11 +1117,11 @@ div {
 @-webkit-keyframes fly24 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-165deg) rotateY(-128deg) rotateZ(-106deg) translateZ(-1623px);
+        transform: translate(-50%, -50%) rotateX(73deg) rotateY(-393deg) rotateZ(-260deg) translateZ(-2325px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-165deg) rotateY(-128deg) rotateZ(-106deg) translateZ(-1623px);
+        transform: translate(-50%, -50%) rotateX(73deg) rotateY(-393deg) rotateZ(-260deg) translateZ(-2325px);
     }
     90% {
         opacity: 1;
@@ -1136,11 +1136,11 @@ div {
 @keyframes fly24 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-165deg) rotateY(-128deg) rotateZ(-106deg) translateZ(-1623px);
+        transform: translate(-50%, -50%) rotateX(73deg) rotateY(-393deg) rotateZ(-260deg) translateZ(-2325px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-165deg) rotateY(-128deg) rotateZ(-106deg) translateZ(-1623px);
+        transform: translate(-50%, -50%) rotateX(73deg) rotateY(-393deg) rotateZ(-260deg) translateZ(-2325px);
     }
     90% {
         opacity: 1;
@@ -1156,7 +1156,7 @@ div {
     color: #cd264b;
     -webkit-clip-path: polygon(20% 50%, 20% 100%, 30% 100%);
     clip-path: polygon(20% 50%, 20% 100%, 30% 100%);
-    transform-origin: -27% 14%;
+    transform-origin: 18% 100%;
     -webkit-animation: fly25 5000ms 960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly25 5000ms 960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1164,11 +1164,11 @@ div {
 @-webkit-keyframes fly25 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-403deg) rotateY(-340deg) rotateZ(-225deg) translateZ(-168px);
+        transform: translate(-50%, -50%) rotateX(311deg) rotateY(-116deg) rotateZ(427deg) translateZ(-113px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-403deg) rotateY(-340deg) rotateZ(-225deg) translateZ(-168px);
+        transform: translate(-50%, -50%) rotateX(311deg) rotateY(-116deg) rotateZ(427deg) translateZ(-113px);
     }
     90% {
         opacity: 1;
@@ -1183,11 +1183,11 @@ div {
 @keyframes fly25 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-403deg) rotateY(-340deg) rotateZ(-225deg) translateZ(-168px);
+        transform: translate(-50%, -50%) rotateX(311deg) rotateY(-116deg) rotateZ(427deg) translateZ(-113px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-403deg) rotateY(-340deg) rotateZ(-225deg) translateZ(-168px);
+        transform: translate(-50%, -50%) rotateX(311deg) rotateY(-116deg) rotateZ(427deg) translateZ(-113px);
     }
     90% {
         opacity: 1;
@@ -1203,7 +1203,7 @@ div {
     color: #cb254e;
     -webkit-clip-path: polygon(20% 50%, 30% 50%, 30% 100%);
     clip-path: polygon(20% 50%, 30% 50%, 30% 100%);
-    transform-origin: 35% 54%;
+    transform-origin: -5% 35%;
     -webkit-animation: fly26 5000ms 1000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly26 5000ms 1000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1211,11 +1211,11 @@ div {
 @-webkit-keyframes fly26 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(343deg) rotateY(164deg) rotateZ(-278deg) translateZ(-937px);
+        transform: translate(-50%, -50%) rotateX(-254deg) rotateY(483deg) rotateZ(-329deg) translateZ(-1232px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(343deg) rotateY(164deg) rotateZ(-278deg) translateZ(-937px);
+        transform: translate(-50%, -50%) rotateX(-254deg) rotateY(483deg) rotateZ(-329deg) translateZ(-1232px);
     }
     90% {
         opacity: 1;
@@ -1230,11 +1230,11 @@ div {
 @keyframes fly26 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(343deg) rotateY(164deg) rotateZ(-278deg) translateZ(-937px);
+        transform: translate(-50%, -50%) rotateX(-254deg) rotateY(483deg) rotateZ(-329deg) translateZ(-1232px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(343deg) rotateY(164deg) rotateZ(-278deg) translateZ(-937px);
+        transform: translate(-50%, -50%) rotateX(-254deg) rotateY(483deg) rotateZ(-329deg) translateZ(-1232px);
     }
     90% {
         opacity: 1;
@@ -1250,7 +1250,7 @@ div {
     color: #c92551;
     -webkit-clip-path: polygon(30% 50%, 30% 100%, 40% 100%);
     clip-path: polygon(30% 50%, 30% 100%, 40% 100%);
-    transform-origin: 72% 30%;
+    transform-origin: -18% 75%;
     -webkit-animation: fly27 5000ms 1040ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly27 5000ms 1040ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1258,11 +1258,11 @@ div {
 @-webkit-keyframes fly27 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-262deg) rotateZ(342deg) translateZ(-394px);
+        transform: translate(-50%, -50%) rotateX(239deg) rotateY(-46deg) rotateZ(378deg) translateZ(-1155px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-262deg) rotateZ(342deg) translateZ(-394px);
+        transform: translate(-50%, -50%) rotateX(239deg) rotateY(-46deg) rotateZ(378deg) translateZ(-1155px);
     }
     90% {
         opacity: 1;
@@ -1277,11 +1277,11 @@ div {
 @keyframes fly27 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-262deg) rotateZ(342deg) translateZ(-394px);
+        transform: translate(-50%, -50%) rotateX(239deg) rotateY(-46deg) rotateZ(378deg) translateZ(-1155px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(52deg) rotateY(-262deg) rotateZ(342deg) translateZ(-394px);
+        transform: translate(-50%, -50%) rotateX(239deg) rotateY(-46deg) rotateZ(378deg) translateZ(-1155px);
     }
     90% {
         opacity: 1;
@@ -1297,7 +1297,7 @@ div {
     color: #c72454;
     -webkit-clip-path: polygon(30% 50%, 40% 50%, 40% 100%);
     clip-path: polygon(30% 50%, 40% 50%, 40% 100%);
-    transform-origin: 12% 43%;
+    transform-origin: 16% 70%;
     -webkit-animation: fly28 5000ms 1080ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly28 5000ms 1080ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1305,11 +1305,11 @@ div {
 @-webkit-keyframes fly28 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(315deg) rotateY(31deg) rotateZ(95deg) translateZ(-1980px);
+        transform: translate(-50%, -50%) rotateX(-122deg) rotateY(291deg) rotateZ(-324deg) translateZ(338px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(315deg) rotateY(31deg) rotateZ(95deg) translateZ(-1980px);
+        transform: translate(-50%, -50%) rotateX(-122deg) rotateY(291deg) rotateZ(-324deg) translateZ(338px);
     }
     90% {
         opacity: 1;
@@ -1324,11 +1324,11 @@ div {
 @keyframes fly28 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(315deg) rotateY(31deg) rotateZ(95deg) translateZ(-1980px);
+        transform: translate(-50%, -50%) rotateX(-122deg) rotateY(291deg) rotateZ(-324deg) translateZ(338px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(315deg) rotateY(31deg) rotateZ(95deg) translateZ(-1980px);
+        transform: translate(-50%, -50%) rotateX(-122deg) rotateY(291deg) rotateZ(-324deg) translateZ(338px);
     }
     90% {
         opacity: 1;
@@ -1344,7 +1344,7 @@ div {
     color: #c52457;
     -webkit-clip-path: polygon(40% 50%, 40% 100%, 50% 100%);
     clip-path: polygon(40% 50%, 40% 100%, 50% 100%);
-    transform-origin: 83% 64%;
+    transform-origin: 69% 89%;
     -webkit-animation: fly29 5000ms 1120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly29 5000ms 1120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1352,11 +1352,11 @@ div {
 @-webkit-keyframes fly29 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-390deg) rotateY(351deg) rotateZ(-199deg) translateZ(291px);
+        transform: translate(-50%, -50%) rotateX(-291deg) rotateY(-390deg) rotateZ(127deg) translateZ(-2031px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-390deg) rotateY(351deg) rotateZ(-199deg) translateZ(291px);
+        transform: translate(-50%, -50%) rotateX(-291deg) rotateY(-390deg) rotateZ(127deg) translateZ(-2031px);
     }
     90% {
         opacity: 1;
@@ -1371,11 +1371,11 @@ div {
 @keyframes fly29 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-390deg) rotateY(351deg) rotateZ(-199deg) translateZ(291px);
+        transform: translate(-50%, -50%) rotateX(-291deg) rotateY(-390deg) rotateZ(127deg) translateZ(-2031px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-390deg) rotateY(351deg) rotateZ(-199deg) translateZ(291px);
+        transform: translate(-50%, -50%) rotateX(-291deg) rotateY(-390deg) rotateZ(127deg) translateZ(-2031px);
     }
     90% {
         opacity: 1;
@@ -1391,7 +1391,7 @@ div {
     color: #c3235a;
     -webkit-clip-path: polygon(40% 50%, 50% 50%, 50% 100%);
     clip-path: polygon(40% 50%, 50% 50%, 50% 100%);
-    transform-origin: 32% 86%;
+    transform-origin: 66% 87%;
     -webkit-animation: fly30 5000ms 1160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly30 5000ms 1160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1399,11 +1399,11 @@ div {
 @-webkit-keyframes fly30 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(431deg) rotateY(430deg) rotateZ(-48deg) translateZ(300px);
+        transform: translate(-50%, -50%) rotateX(-29deg) rotateY(-109deg) rotateZ(-41deg) translateZ(-149px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(431deg) rotateY(430deg) rotateZ(-48deg) translateZ(300px);
+        transform: translate(-50%, -50%) rotateX(-29deg) rotateY(-109deg) rotateZ(-41deg) translateZ(-149px);
     }
     90% {
         opacity: 1;
@@ -1418,11 +1418,11 @@ div {
 @keyframes fly30 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(431deg) rotateY(430deg) rotateZ(-48deg) translateZ(300px);
+        transform: translate(-50%, -50%) rotateX(-29deg) rotateY(-109deg) rotateZ(-41deg) translateZ(-149px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(431deg) rotateY(430deg) rotateZ(-48deg) translateZ(300px);
+        transform: translate(-50%, -50%) rotateX(-29deg) rotateY(-109deg) rotateZ(-41deg) translateZ(-149px);
     }
     90% {
         opacity: 1;
@@ -1438,7 +1438,7 @@ div {
     color: #c1235d;
     -webkit-clip-path: polygon(50% 50%, 50% 100%, 60% 100%);
     clip-path: polygon(50% 50%, 50% 100%, 60% 100%);
-    transform-origin: 29% 80%;
+    transform-origin: 78% 60%;
     -webkit-animation: fly31 5000ms 1200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly31 5000ms 1200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1446,11 +1446,11 @@ div {
 @-webkit-keyframes fly31 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-392deg) rotateY(29deg) rotateZ(488deg) translateZ(-1765px);
+        transform: translate(-50%, -50%) rotateX(153deg) rotateY(-294deg) rotateZ(-408deg) translateZ(-1258px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-392deg) rotateY(29deg) rotateZ(488deg) translateZ(-1765px);
+        transform: translate(-50%, -50%) rotateX(153deg) rotateY(-294deg) rotateZ(-408deg) translateZ(-1258px);
     }
     90% {
         opacity: 1;
@@ -1465,11 +1465,11 @@ div {
 @keyframes fly31 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-392deg) rotateY(29deg) rotateZ(488deg) translateZ(-1765px);
+        transform: translate(-50%, -50%) rotateX(153deg) rotateY(-294deg) rotateZ(-408deg) translateZ(-1258px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-392deg) rotateY(29deg) rotateZ(488deg) translateZ(-1765px);
+        transform: translate(-50%, -50%) rotateX(153deg) rotateY(-294deg) rotateZ(-408deg) translateZ(-1258px);
     }
     90% {
         opacity: 1;
@@ -1485,7 +1485,7 @@ div {
     color: #bf2260;
     -webkit-clip-path: polygon(50% 50%, 60% 50%, 60% 100%);
     clip-path: polygon(50% 50%, 60% 50%, 60% 100%);
-    transform-origin: 26% 96%;
+    transform-origin: 89% 36%;
     -webkit-animation: fly32 5000ms 1240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly32 5000ms 1240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1493,11 +1493,11 @@ div {
 @-webkit-keyframes fly32 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-496deg) rotateZ(9deg) translateZ(-674px);
+        transform: translate(-50%, -50%) rotateX(456deg) rotateY(346deg) rotateZ(-106deg) translateZ(-182px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-496deg) rotateZ(9deg) translateZ(-674px);
+        transform: translate(-50%, -50%) rotateX(456deg) rotateY(346deg) rotateZ(-106deg) translateZ(-182px);
     }
     90% {
         opacity: 1;
@@ -1512,11 +1512,11 @@ div {
 @keyframes fly32 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-496deg) rotateZ(9deg) translateZ(-674px);
+        transform: translate(-50%, -50%) rotateX(456deg) rotateY(346deg) rotateZ(-106deg) translateZ(-182px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(21deg) rotateY(-496deg) rotateZ(9deg) translateZ(-674px);
+        transform: translate(-50%, -50%) rotateX(456deg) rotateY(346deg) rotateZ(-106deg) translateZ(-182px);
     }
     90% {
         opacity: 1;
@@ -1532,7 +1532,7 @@ div {
     color: #bd2263;
     -webkit-clip-path: polygon(60% 50%, 60% 100%, 70% 100%);
     clip-path: polygon(60% 50%, 60% 100%, 70% 100%);
-    transform-origin: 110% 7%;
+    transform-origin: 37% 77%;
     -webkit-animation: fly33 5000ms 1280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly33 5000ms 1280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1540,11 +1540,11 @@ div {
 @-webkit-keyframes fly33 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(194deg) rotateY(1deg) rotateZ(-92deg) translateZ(284px);
+        transform: translate(-50%, -50%) rotateX(67deg) rotateY(-387deg) rotateZ(389deg) translateZ(-90px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(194deg) rotateY(1deg) rotateZ(-92deg) translateZ(284px);
+        transform: translate(-50%, -50%) rotateX(67deg) rotateY(-387deg) rotateZ(389deg) translateZ(-90px);
     }
     90% {
         opacity: 1;
@@ -1559,11 +1559,11 @@ div {
 @keyframes fly33 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(194deg) rotateY(1deg) rotateZ(-92deg) translateZ(284px);
+        transform: translate(-50%, -50%) rotateX(67deg) rotateY(-387deg) rotateZ(389deg) translateZ(-90px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(194deg) rotateY(1deg) rotateZ(-92deg) translateZ(284px);
+        transform: translate(-50%, -50%) rotateX(67deg) rotateY(-387deg) rotateZ(389deg) translateZ(-90px);
     }
     90% {
         opacity: 1;
@@ -1579,7 +1579,7 @@ div {
     color: #bb2166;
     -webkit-clip-path: polygon(60% 50%, 70% 50%, 70% 100%);
     clip-path: polygon(60% 50%, 70% 50%, 70% 100%);
-    transform-origin: 37% 92%;
+    transform-origin: 16% 1%;
     -webkit-animation: fly34 5000ms 1320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly34 5000ms 1320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1587,11 +1587,11 @@ div {
 @-webkit-keyframes fly34 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(-457deg) rotateZ(-435deg) translateZ(-1487px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(-10deg) rotateZ(130deg) translateZ(84px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(-457deg) rotateZ(-435deg) translateZ(-1487px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(-10deg) rotateZ(130deg) translateZ(84px);
     }
     90% {
         opacity: 1;
@@ -1606,11 +1606,11 @@ div {
 @keyframes fly34 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(-457deg) rotateZ(-435deg) translateZ(-1487px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(-10deg) rotateZ(130deg) translateZ(84px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(-457deg) rotateZ(-435deg) translateZ(-1487px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(-10deg) rotateZ(130deg) translateZ(84px);
     }
     90% {
         opacity: 1;
@@ -1626,7 +1626,7 @@ div {
     color: #b92169;
     -webkit-clip-path: polygon(70% 50%, 70% 100%, 80% 100%);
     clip-path: polygon(70% 50%, 70% 100%, 80% 100%);
-    transform-origin: 84% 91%;
+    transform-origin: 118% 8%;
     -webkit-animation: fly35 5000ms 1360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly35 5000ms 1360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1634,11 +1634,11 @@ div {
 @-webkit-keyframes fly35 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(117deg) rotateY(300deg) rotateZ(-218deg) translateZ(-934px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(-21deg) rotateZ(-454deg) translateZ(-724px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(117deg) rotateY(300deg) rotateZ(-218deg) translateZ(-934px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(-21deg) rotateZ(-454deg) translateZ(-724px);
     }
     90% {
         opacity: 1;
@@ -1653,11 +1653,11 @@ div {
 @keyframes fly35 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(117deg) rotateY(300deg) rotateZ(-218deg) translateZ(-934px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(-21deg) rotateZ(-454deg) translateZ(-724px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(117deg) rotateY(300deg) rotateZ(-218deg) translateZ(-934px);
+        transform: translate(-50%, -50%) rotateX(-357deg) rotateY(-21deg) rotateZ(-454deg) translateZ(-724px);
     }
     90% {
         opacity: 1;
@@ -1673,7 +1673,7 @@ div {
     color: #b7206c;
     -webkit-clip-path: polygon(70% 50%, 80% 50%, 80% 100%);
     clip-path: polygon(70% 50%, 80% 50%, 80% 100%);
-    transform-origin: 27% 58%;
+    transform-origin: 79% 11%;
     -webkit-animation: fly36 5000ms 1400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly36 5000ms 1400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1681,11 +1681,11 @@ div {
 @-webkit-keyframes fly36 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(356deg) rotateY(363deg) rotateZ(-160deg) translateZ(-2216px);
+        transform: translate(-50%, -50%) rotateX(352deg) rotateY(-171deg) rotateZ(-397deg) translateZ(-947px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(356deg) rotateY(363deg) rotateZ(-160deg) translateZ(-2216px);
+        transform: translate(-50%, -50%) rotateX(352deg) rotateY(-171deg) rotateZ(-397deg) translateZ(-947px);
     }
     90% {
         opacity: 1;
@@ -1700,11 +1700,11 @@ div {
 @keyframes fly36 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(356deg) rotateY(363deg) rotateZ(-160deg) translateZ(-2216px);
+        transform: translate(-50%, -50%) rotateX(352deg) rotateY(-171deg) rotateZ(-397deg) translateZ(-947px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(356deg) rotateY(363deg) rotateZ(-160deg) translateZ(-2216px);
+        transform: translate(-50%, -50%) rotateX(352deg) rotateY(-171deg) rotateZ(-397deg) translateZ(-947px);
     }
     90% {
         opacity: 1;
@@ -1720,7 +1720,7 @@ div {
     color: #b5206f;
     -webkit-clip-path: polygon(80% 50%, 80% 100%, 90% 100%);
     clip-path: polygon(80% 50%, 80% 100%, 90% 100%);
-    transform-origin: 53% 44%;
+    transform-origin: 53% 37%;
     -webkit-animation: fly37 5000ms 1440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly37 5000ms 1440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1728,11 +1728,11 @@ div {
 @-webkit-keyframes fly37 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(259deg) rotateZ(410deg) translateZ(-550px);
+        transform: translate(-50%, -50%) rotateX(-387deg) rotateY(149deg) rotateZ(340deg) translateZ(-475px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(259deg) rotateZ(410deg) translateZ(-550px);
+        transform: translate(-50%, -50%) rotateX(-387deg) rotateY(149deg) rotateZ(340deg) translateZ(-475px);
     }
     90% {
         opacity: 1;
@@ -1747,11 +1747,11 @@ div {
 @keyframes fly37 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(259deg) rotateZ(410deg) translateZ(-550px);
+        transform: translate(-50%, -50%) rotateX(-387deg) rotateY(149deg) rotateZ(340deg) translateZ(-475px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(259deg) rotateZ(410deg) translateZ(-550px);
+        transform: translate(-50%, -50%) rotateX(-387deg) rotateY(149deg) rotateZ(340deg) translateZ(-475px);
     }
     90% {
         opacity: 1;
@@ -1767,7 +1767,7 @@ div {
     color: #b31f72;
     -webkit-clip-path: polygon(80% 50%, 90% 50%, 90% 100%);
     clip-path: polygon(80% 50%, 90% 50%, 90% 100%);
-    transform-origin: 37% 64%;
+    transform-origin: 85% 12%;
     -webkit-animation: fly38 5000ms 1480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly38 5000ms 1480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1775,11 +1775,11 @@ div {
 @-webkit-keyframes fly38 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-50deg) rotateY(-115deg) rotateZ(168deg) translateZ(-1420px);
+        transform: translate(-50%, -50%) rotateX(351deg) rotateY(226deg) rotateZ(-92deg) translateZ(-108px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-50deg) rotateY(-115deg) rotateZ(168deg) translateZ(-1420px);
+        transform: translate(-50%, -50%) rotateX(351deg) rotateY(226deg) rotateZ(-92deg) translateZ(-108px);
     }
     90% {
         opacity: 1;
@@ -1794,11 +1794,11 @@ div {
 @keyframes fly38 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-50deg) rotateY(-115deg) rotateZ(168deg) translateZ(-1420px);
+        transform: translate(-50%, -50%) rotateX(351deg) rotateY(226deg) rotateZ(-92deg) translateZ(-108px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-50deg) rotateY(-115deg) rotateZ(168deg) translateZ(-1420px);
+        transform: translate(-50%, -50%) rotateX(351deg) rotateY(226deg) rotateZ(-92deg) translateZ(-108px);
     }
     90% {
         opacity: 1;
@@ -1814,7 +1814,7 @@ div {
     color: #b11f75;
     -webkit-clip-path: polygon(90% 50%, 90% 100%, 100% 100%);
     clip-path: polygon(90% 50%, 90% 100%, 100% 100%);
-    transform-origin: 80% 80%;
+    transform-origin: 44% 73%;
     -webkit-animation: fly39 5000ms 1520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly39 5000ms 1520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1822,11 +1822,11 @@ div {
 @-webkit-keyframes fly39 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(17deg) rotateY(-156deg) rotateZ(51deg) translateZ(-1652px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(164deg) rotateZ(99deg) translateZ(-1209px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(17deg) rotateY(-156deg) rotateZ(51deg) translateZ(-1652px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(164deg) rotateZ(99deg) translateZ(-1209px);
     }
     90% {
         opacity: 1;
@@ -1841,11 +1841,11 @@ div {
 @keyframes fly39 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(17deg) rotateY(-156deg) rotateZ(51deg) translateZ(-1652px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(164deg) rotateZ(99deg) translateZ(-1209px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(17deg) rotateY(-156deg) rotateZ(51deg) translateZ(-1652px);
+        transform: translate(-50%, -50%) rotateX(-72deg) rotateY(164deg) rotateZ(99deg) translateZ(-1209px);
     }
     90% {
         opacity: 1;
@@ -1861,7 +1861,7 @@ div {
     color: #af1e78;
     -webkit-clip-path: polygon(90% 50%, 100% 50%, 100% 100%);
     clip-path: polygon(90% 50%, 100% 50%, 100% 100%);
-    transform-origin: 62% 26%;
+    transform-origin: 110% 99%;
     -webkit-animation: fly40 5000ms 1560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly40 5000ms 1560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1869,11 +1869,11 @@ div {
 @-webkit-keyframes fly40 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(497deg) rotateY(12deg) rotateZ(-383deg) translateZ(-1778px);
+        transform: translate(-50%, -50%) rotateX(275deg) rotateY(19deg) rotateZ(-428deg) translateZ(-2165px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(497deg) rotateY(12deg) rotateZ(-383deg) translateZ(-1778px);
+        transform: translate(-50%, -50%) rotateX(275deg) rotateY(19deg) rotateZ(-428deg) translateZ(-2165px);
     }
     90% {
         opacity: 1;
@@ -1888,11 +1888,11 @@ div {
 @keyframes fly40 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(497deg) rotateY(12deg) rotateZ(-383deg) translateZ(-1778px);
+        transform: translate(-50%, -50%) rotateX(275deg) rotateY(19deg) rotateZ(-428deg) translateZ(-2165px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(497deg) rotateY(12deg) rotateZ(-383deg) translateZ(-1778px);
+        transform: translate(-50%, -50%) rotateX(275deg) rotateY(19deg) rotateZ(-428deg) translateZ(-2165px);
     }
     90% {
         opacity: 1;
@@ -1908,7 +1908,7 @@ div {
     color: #ad1e7b;
     -webkit-clip-path: polygon(0% 100%, 0% 150%, 10% 150%);
     clip-path: polygon(0% 100%, 0% 150%, 10% 150%);
-    transform-origin: 35% 127%;
+    transform-origin: 20% 81%;
     -webkit-animation: fly41 5000ms 1600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly41 5000ms 1600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1916,11 +1916,11 @@ div {
 @-webkit-keyframes fly41 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(393deg) rotateZ(92deg) translateZ(-1143px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-465deg) rotateZ(-142deg) translateZ(-1170px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(393deg) rotateZ(92deg) translateZ(-1143px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-465deg) rotateZ(-142deg) translateZ(-1170px);
     }
     90% {
         opacity: 1;
@@ -1935,11 +1935,11 @@ div {
 @keyframes fly41 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(393deg) rotateZ(92deg) translateZ(-1143px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-465deg) rotateZ(-142deg) translateZ(-1170px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(393deg) rotateZ(92deg) translateZ(-1143px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-465deg) rotateZ(-142deg) translateZ(-1170px);
     }
     90% {
         opacity: 1;
@@ -1955,7 +1955,7 @@ div {
     color: #ab1d7e;
     -webkit-clip-path: polygon(0% 100%, 10% 100%, 10% 150%);
     clip-path: polygon(0% 100%, 10% 100%, 10% 150%);
-    transform-origin: -8% 138%;
+    transform-origin: 34% 148%;
     -webkit-animation: fly42 5000ms 1640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly42 5000ms 1640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -1963,11 +1963,11 @@ div {
 @-webkit-keyframes fly42 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-336deg) rotateY(492deg) rotateZ(49deg) translateZ(-932px);
+        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-161deg) rotateZ(-287deg) translateZ(-51px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-336deg) rotateY(492deg) rotateZ(49deg) translateZ(-932px);
+        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-161deg) rotateZ(-287deg) translateZ(-51px);
     }
     90% {
         opacity: 1;
@@ -1982,11 +1982,11 @@ div {
 @keyframes fly42 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-336deg) rotateY(492deg) rotateZ(49deg) translateZ(-932px);
+        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-161deg) rotateZ(-287deg) translateZ(-51px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-336deg) rotateY(492deg) rotateZ(49deg) translateZ(-932px);
+        transform: translate(-50%, -50%) rotateX(19deg) rotateY(-161deg) rotateZ(-287deg) translateZ(-51px);
     }
     90% {
         opacity: 1;
@@ -2002,7 +2002,7 @@ div {
     color: #a91d81;
     -webkit-clip-path: polygon(10% 100%, 10% 150%, 20% 150%);
     clip-path: polygon(10% 100%, 10% 150%, 20% 150%);
-    transform-origin: -9% 112%;
+    transform-origin: -30% 94%;
     -webkit-animation: fly43 5000ms 1680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly43 5000ms 1680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2010,11 +2010,11 @@ div {
 @-webkit-keyframes fly43 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(237deg) rotateY(-7deg) rotateZ(-317deg) translateZ(-1007px);
+        transform: translate(-50%, -50%) rotateX(254deg) rotateY(338deg) rotateZ(273deg) translateZ(-1317px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(237deg) rotateY(-7deg) rotateZ(-317deg) translateZ(-1007px);
+        transform: translate(-50%, -50%) rotateX(254deg) rotateY(338deg) rotateZ(273deg) translateZ(-1317px);
     }
     90% {
         opacity: 1;
@@ -2029,11 +2029,11 @@ div {
 @keyframes fly43 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(237deg) rotateY(-7deg) rotateZ(-317deg) translateZ(-1007px);
+        transform: translate(-50%, -50%) rotateX(254deg) rotateY(338deg) rotateZ(273deg) translateZ(-1317px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(237deg) rotateY(-7deg) rotateZ(-317deg) translateZ(-1007px);
+        transform: translate(-50%, -50%) rotateX(254deg) rotateY(338deg) rotateZ(273deg) translateZ(-1317px);
     }
     90% {
         opacity: 1;
@@ -2049,7 +2049,7 @@ div {
     color: #a71c84;
     -webkit-clip-path: polygon(10% 100%, 20% 100%, 20% 150%);
     clip-path: polygon(10% 100%, 20% 100%, 20% 150%);
-    transform-origin: 59% 63%;
+    transform-origin: 42% 102%;
     -webkit-animation: fly44 5000ms 1720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly44 5000ms 1720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2057,11 +2057,11 @@ div {
 @-webkit-keyframes fly44 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(136deg) rotateY(-201deg) rotateZ(-403deg) translateZ(187px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-475deg) rotateZ(-162deg) translateZ(264px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(136deg) rotateY(-201deg) rotateZ(-403deg) translateZ(187px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-475deg) rotateZ(-162deg) translateZ(264px);
     }
     90% {
         opacity: 1;
@@ -2076,11 +2076,11 @@ div {
 @keyframes fly44 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(136deg) rotateY(-201deg) rotateZ(-403deg) translateZ(187px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-475deg) rotateZ(-162deg) translateZ(264px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(136deg) rotateY(-201deg) rotateZ(-403deg) translateZ(187px);
+        transform: translate(-50%, -50%) rotateX(258deg) rotateY(-475deg) rotateZ(-162deg) translateZ(264px);
     }
     90% {
         opacity: 1;
@@ -2096,7 +2096,7 @@ div {
     color: #a51c87;
     -webkit-clip-path: polygon(20% 100%, 20% 150%, 30% 150%);
     clip-path: polygon(20% 100%, 20% 150%, 30% 150%);
-    transform-origin: 36% 115%;
+    transform-origin: -11% 132%;
     -webkit-animation: fly45 5000ms 1760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly45 5000ms 1760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2104,11 +2104,11 @@ div {
 @-webkit-keyframes fly45 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-14deg) rotateY(-132deg) rotateZ(24deg) translateZ(-1374px);
+        transform: translate(-50%, -50%) rotateX(81deg) rotateY(-270deg) rotateZ(253deg) translateZ(-1848px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-14deg) rotateY(-132deg) rotateZ(24deg) translateZ(-1374px);
+        transform: translate(-50%, -50%) rotateX(81deg) rotateY(-270deg) rotateZ(253deg) translateZ(-1848px);
     }
     90% {
         opacity: 1;
@@ -2123,11 +2123,11 @@ div {
 @keyframes fly45 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-14deg) rotateY(-132deg) rotateZ(24deg) translateZ(-1374px);
+        transform: translate(-50%, -50%) rotateX(81deg) rotateY(-270deg) rotateZ(253deg) translateZ(-1848px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-14deg) rotateY(-132deg) rotateZ(24deg) translateZ(-1374px);
+        transform: translate(-50%, -50%) rotateX(81deg) rotateY(-270deg) rotateZ(253deg) translateZ(-1848px);
     }
     90% {
         opacity: 1;
@@ -2143,7 +2143,7 @@ div {
     color: #a31b8a;
     -webkit-clip-path: polygon(20% 100%, 30% 100%, 30% 150%);
     clip-path: polygon(20% 100%, 30% 100%, 30% 150%);
-    transform-origin: -1% 127%;
+    transform-origin: 56% 54%;
     -webkit-animation: fly46 5000ms 1800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly46 5000ms 1800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2151,11 +2151,11 @@ div {
 @-webkit-keyframes fly46 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(100deg) rotateY(500deg) rotateZ(-324deg) translateZ(332px);
+        transform: translate(-50%, -50%) rotateX(489deg) rotateY(262deg) rotateZ(-153deg) translateZ(-32px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(100deg) rotateY(500deg) rotateZ(-324deg) translateZ(332px);
+        transform: translate(-50%, -50%) rotateX(489deg) rotateY(262deg) rotateZ(-153deg) translateZ(-32px);
     }
     90% {
         opacity: 1;
@@ -2170,11 +2170,11 @@ div {
 @keyframes fly46 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(100deg) rotateY(500deg) rotateZ(-324deg) translateZ(332px);
+        transform: translate(-50%, -50%) rotateX(489deg) rotateY(262deg) rotateZ(-153deg) translateZ(-32px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(100deg) rotateY(500deg) rotateZ(-324deg) translateZ(332px);
+        transform: translate(-50%, -50%) rotateX(489deg) rotateY(262deg) rotateZ(-153deg) translateZ(-32px);
     }
     90% {
         opacity: 1;
@@ -2190,7 +2190,7 @@ div {
     color: #a11b8d;
     -webkit-clip-path: polygon(30% 100%, 30% 150%, 40% 150%);
     clip-path: polygon(30% 100%, 30% 150%, 40% 150%);
-    transform-origin: 36% 81%;
+    transform-origin: 56% 137%;
     -webkit-animation: fly47 5000ms 1840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly47 5000ms 1840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2198,11 +2198,11 @@ div {
 @-webkit-keyframes fly47 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-376deg) rotateY(-92deg) rotateZ(275deg) translateZ(-2486px);
+        transform: translate(-50%, -50%) rotateX(345deg) rotateY(-357deg) rotateZ(3deg) translateZ(-18px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-376deg) rotateY(-92deg) rotateZ(275deg) translateZ(-2486px);
+        transform: translate(-50%, -50%) rotateX(345deg) rotateY(-357deg) rotateZ(3deg) translateZ(-18px);
     }
     90% {
         opacity: 1;
@@ -2217,11 +2217,11 @@ div {
 @keyframes fly47 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-376deg) rotateY(-92deg) rotateZ(275deg) translateZ(-2486px);
+        transform: translate(-50%, -50%) rotateX(345deg) rotateY(-357deg) rotateZ(3deg) translateZ(-18px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-376deg) rotateY(-92deg) rotateZ(275deg) translateZ(-2486px);
+        transform: translate(-50%, -50%) rotateX(345deg) rotateY(-357deg) rotateZ(3deg) translateZ(-18px);
     }
     90% {
         opacity: 1;
@@ -2237,7 +2237,7 @@ div {
     color: #9f1a90;
     -webkit-clip-path: polygon(30% 100%, 40% 100%, 40% 150%);
     clip-path: polygon(30% 100%, 40% 100%, 40% 150%);
-    transform-origin: 6% 150%;
+    transform-origin: 41% 71%;
     -webkit-animation: fly48 5000ms 1880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly48 5000ms 1880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2245,11 +2245,11 @@ div {
 @-webkit-keyframes fly48 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(147deg) rotateZ(-288deg) translateZ(-692px);
+        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(450deg) rotateZ(365deg) translateZ(-2289px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(147deg) rotateZ(-288deg) translateZ(-692px);
+        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(450deg) rotateZ(365deg) translateZ(-2289px);
     }
     90% {
         opacity: 1;
@@ -2264,11 +2264,11 @@ div {
 @keyframes fly48 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(147deg) rotateZ(-288deg) translateZ(-692px);
+        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(450deg) rotateZ(365deg) translateZ(-2289px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-121deg) rotateY(147deg) rotateZ(-288deg) translateZ(-692px);
+        transform: translate(-50%, -50%) rotateX(-61deg) rotateY(450deg) rotateZ(365deg) translateZ(-2289px);
     }
     90% {
         opacity: 1;
@@ -2284,7 +2284,7 @@ div {
     color: #9d1a93;
     -webkit-clip-path: polygon(40% 100%, 40% 150%, 50% 150%);
     clip-path: polygon(40% 100%, 40% 150%, 50% 150%);
-    transform-origin: 60% 150%;
+    transform-origin: 15% 102%;
     -webkit-animation: fly49 5000ms 1920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly49 5000ms 1920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2292,11 +2292,11 @@ div {
 @-webkit-keyframes fly49 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(455deg) rotateY(40deg) rotateZ(457deg) translateZ(-1843px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(176deg) rotateZ(278deg) translateZ(-990px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(455deg) rotateY(40deg) rotateZ(457deg) translateZ(-1843px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(176deg) rotateZ(278deg) translateZ(-990px);
     }
     90% {
         opacity: 1;
@@ -2311,11 +2311,11 @@ div {
 @keyframes fly49 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(455deg) rotateY(40deg) rotateZ(457deg) translateZ(-1843px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(176deg) rotateZ(278deg) translateZ(-990px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(455deg) rotateY(40deg) rotateZ(457deg) translateZ(-1843px);
+        transform: translate(-50%, -50%) rotateX(282deg) rotateY(176deg) rotateZ(278deg) translateZ(-990px);
     }
     90% {
         opacity: 1;
@@ -2331,7 +2331,7 @@ div {
     color: #9b1996;
     -webkit-clip-path: polygon(40% 100%, 50% 100%, 50% 150%);
     clip-path: polygon(40% 100%, 50% 100%, 50% 150%);
-    transform-origin: 90% 62%;
+    transform-origin: 23% 109%;
     -webkit-animation: fly50 5000ms 1960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly50 5000ms 1960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2339,11 +2339,11 @@ div {
 @-webkit-keyframes fly50 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(357deg) rotateZ(312deg) translateZ(435px);
+        transform: translate(-50%, -50%) rotateX(203deg) rotateY(-396deg) rotateZ(-171deg) translateZ(-1695px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(357deg) rotateZ(312deg) translateZ(435px);
+        transform: translate(-50%, -50%) rotateX(203deg) rotateY(-396deg) rotateZ(-171deg) translateZ(-1695px);
     }
     90% {
         opacity: 1;
@@ -2358,11 +2358,11 @@ div {
 @keyframes fly50 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(357deg) rotateZ(312deg) translateZ(435px);
+        transform: translate(-50%, -50%) rotateX(203deg) rotateY(-396deg) rotateZ(-171deg) translateZ(-1695px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(357deg) rotateZ(312deg) translateZ(435px);
+        transform: translate(-50%, -50%) rotateX(203deg) rotateY(-396deg) rotateZ(-171deg) translateZ(-1695px);
     }
     90% {
         opacity: 1;
@@ -2378,7 +2378,7 @@ div {
     color: #991999;
     -webkit-clip-path: polygon(50% 100%, 50% 150%, 60% 150%);
     clip-path: polygon(50% 100%, 50% 150%, 60% 150%);
-    transform-origin: 72% 141%;
+    transform-origin: 38% 65%;
     -webkit-animation: fly51 5000ms 2000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly51 5000ms 2000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2386,11 +2386,11 @@ div {
 @-webkit-keyframes fly51 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(137deg) rotateY(20deg) rotateZ(-261deg) translateZ(-2372px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-129deg) rotateZ(-27deg) translateZ(-428px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(137deg) rotateY(20deg) rotateZ(-261deg) translateZ(-2372px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-129deg) rotateZ(-27deg) translateZ(-428px);
     }
     90% {
         opacity: 1;
@@ -2405,11 +2405,11 @@ div {
 @keyframes fly51 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(137deg) rotateY(20deg) rotateZ(-261deg) translateZ(-2372px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-129deg) rotateZ(-27deg) translateZ(-428px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(137deg) rotateY(20deg) rotateZ(-261deg) translateZ(-2372px);
+        transform: translate(-50%, -50%) rotateX(386deg) rotateY(-129deg) rotateZ(-27deg) translateZ(-428px);
     }
     90% {
         opacity: 1;
@@ -2425,7 +2425,7 @@ div {
     color: #97189c;
     -webkit-clip-path: polygon(50% 100%, 60% 100%, 60% 150%);
     clip-path: polygon(50% 100%, 60% 100%, 60% 150%);
-    transform-origin: 15% 115%;
+    transform-origin: 40% 144%;
     -webkit-animation: fly52 5000ms 2040ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly52 5000ms 2040ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2433,11 +2433,11 @@ div {
 @-webkit-keyframes fly52 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(203deg) rotateY(402deg) rotateZ(-484deg) translateZ(-1589px);
+        transform: translate(-50%, -50%) rotateX(331deg) rotateY(445deg) rotateZ(362deg) translateZ(-1352px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(203deg) rotateY(402deg) rotateZ(-484deg) translateZ(-1589px);
+        transform: translate(-50%, -50%) rotateX(331deg) rotateY(445deg) rotateZ(362deg) translateZ(-1352px);
     }
     90% {
         opacity: 1;
@@ -2452,11 +2452,11 @@ div {
 @keyframes fly52 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(203deg) rotateY(402deg) rotateZ(-484deg) translateZ(-1589px);
+        transform: translate(-50%, -50%) rotateX(331deg) rotateY(445deg) rotateZ(362deg) translateZ(-1352px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(203deg) rotateY(402deg) rotateZ(-484deg) translateZ(-1589px);
+        transform: translate(-50%, -50%) rotateX(331deg) rotateY(445deg) rotateZ(362deg) translateZ(-1352px);
     }
     90% {
         opacity: 1;
@@ -2472,7 +2472,7 @@ div {
     color: #95189f;
     -webkit-clip-path: polygon(60% 100%, 60% 150%, 70% 150%);
     clip-path: polygon(60% 100%, 60% 150%, 70% 150%);
-    transform-origin: 61% 137%;
+    transform-origin: 65% 115%;
     -webkit-animation: fly53 5000ms 2080ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly53 5000ms 2080ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2480,11 +2480,11 @@ div {
 @-webkit-keyframes fly53 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-380deg) rotateY(94deg) rotateZ(54deg) translateZ(116px);
+        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(305deg) rotateZ(292deg) translateZ(-944px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-380deg) rotateY(94deg) rotateZ(54deg) translateZ(116px);
+        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(305deg) rotateZ(292deg) translateZ(-944px);
     }
     90% {
         opacity: 1;
@@ -2499,11 +2499,11 @@ div {
 @keyframes fly53 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-380deg) rotateY(94deg) rotateZ(54deg) translateZ(116px);
+        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(305deg) rotateZ(292deg) translateZ(-944px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-380deg) rotateY(94deg) rotateZ(54deg) translateZ(116px);
+        transform: translate(-50%, -50%) rotateX(-92deg) rotateY(305deg) rotateZ(292deg) translateZ(-944px);
     }
     90% {
         opacity: 1;
@@ -2519,7 +2519,7 @@ div {
     color: #9317a2;
     -webkit-clip-path: polygon(60% 100%, 70% 100%, 70% 150%);
     clip-path: polygon(60% 100%, 70% 100%, 70% 150%);
-    transform-origin: 31% 142%;
+    transform-origin: 90% 123%;
     -webkit-animation: fly54 5000ms 2120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly54 5000ms 2120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2527,11 +2527,11 @@ div {
 @-webkit-keyframes fly54 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(491deg) rotateY(-68deg) rotateZ(-391deg) translateZ(-853px);
+        transform: translate(-50%, -50%) rotateX(-393deg) rotateY(439deg) rotateZ(490deg) translateZ(-76px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(491deg) rotateY(-68deg) rotateZ(-391deg) translateZ(-853px);
+        transform: translate(-50%, -50%) rotateX(-393deg) rotateY(439deg) rotateZ(490deg) translateZ(-76px);
     }
     90% {
         opacity: 1;
@@ -2546,11 +2546,11 @@ div {
 @keyframes fly54 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(491deg) rotateY(-68deg) rotateZ(-391deg) translateZ(-853px);
+        transform: translate(-50%, -50%) rotateX(-393deg) rotateY(439deg) rotateZ(490deg) translateZ(-76px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(491deg) rotateY(-68deg) rotateZ(-391deg) translateZ(-853px);
+        transform: translate(-50%, -50%) rotateX(-393deg) rotateY(439deg) rotateZ(490deg) translateZ(-76px);
     }
     90% {
         opacity: 1;
@@ -2566,7 +2566,7 @@ div {
     color: #9117a5;
     -webkit-clip-path: polygon(70% 100%, 70% 150%, 80% 150%);
     clip-path: polygon(70% 100%, 70% 150%, 80% 150%);
-    transform-origin: 114% 73%;
+    transform-origin: 88% 105%;
     -webkit-animation: fly55 5000ms 2160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly55 5000ms 2160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2574,11 +2574,11 @@ div {
 @-webkit-keyframes fly55 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(393deg) rotateZ(265deg) translateZ(-1215px);
+        transform: translate(-50%, -50%) rotateX(-41deg) rotateY(-8deg) rotateZ(-69deg) translateZ(-380px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(393deg) rotateZ(265deg) translateZ(-1215px);
+        transform: translate(-50%, -50%) rotateX(-41deg) rotateY(-8deg) rotateZ(-69deg) translateZ(-380px);
     }
     90% {
         opacity: 1;
@@ -2593,11 +2593,11 @@ div {
 @keyframes fly55 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(393deg) rotateZ(265deg) translateZ(-1215px);
+        transform: translate(-50%, -50%) rotateX(-41deg) rotateY(-8deg) rotateZ(-69deg) translateZ(-380px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(495deg) rotateY(393deg) rotateZ(265deg) translateZ(-1215px);
+        transform: translate(-50%, -50%) rotateX(-41deg) rotateY(-8deg) rotateZ(-69deg) translateZ(-380px);
     }
     90% {
         opacity: 1;
@@ -2613,7 +2613,7 @@ div {
     color: #8f16a8;
     -webkit-clip-path: polygon(70% 100%, 80% 100%, 80% 150%);
     clip-path: polygon(70% 100%, 80% 100%, 80% 150%);
-    transform-origin: 67% 142%;
+    transform-origin: 68% 121%;
     -webkit-animation: fly56 5000ms 2200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly56 5000ms 2200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2621,11 +2621,11 @@ div {
 @-webkit-keyframes fly56 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(112deg) rotateY(-103deg) rotateZ(257deg) translateZ(-1226px);
+        transform: translate(-50%, -50%) rotateX(-93deg) rotateY(-196deg) rotateZ(366deg) translateZ(-536px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(112deg) rotateY(-103deg) rotateZ(257deg) translateZ(-1226px);
+        transform: translate(-50%, -50%) rotateX(-93deg) rotateY(-196deg) rotateZ(366deg) translateZ(-536px);
     }
     90% {
         opacity: 1;
@@ -2640,11 +2640,11 @@ div {
 @keyframes fly56 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(112deg) rotateY(-103deg) rotateZ(257deg) translateZ(-1226px);
+        transform: translate(-50%, -50%) rotateX(-93deg) rotateY(-196deg) rotateZ(366deg) translateZ(-536px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(112deg) rotateY(-103deg) rotateZ(257deg) translateZ(-1226px);
+        transform: translate(-50%, -50%) rotateX(-93deg) rotateY(-196deg) rotateZ(366deg) translateZ(-536px);
     }
     90% {
         opacity: 1;
@@ -2660,7 +2660,7 @@ div {
     color: #8d16ab;
     -webkit-clip-path: polygon(80% 100%, 80% 150%, 90% 150%);
     clip-path: polygon(80% 100%, 80% 150%, 90% 150%);
-    transform-origin: 39% 82%;
+    transform-origin: 111% 138%;
     -webkit-animation: fly57 5000ms 2240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly57 5000ms 2240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2668,11 +2668,11 @@ div {
 @-webkit-keyframes fly57 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(377deg) rotateY(52deg) rotateZ(289deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(-425deg) rotateY(162deg) rotateZ(281deg) translateZ(-298px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(377deg) rotateY(52deg) rotateZ(289deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(-425deg) rotateY(162deg) rotateZ(281deg) translateZ(-298px);
     }
     90% {
         opacity: 1;
@@ -2687,11 +2687,11 @@ div {
 @keyframes fly57 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(377deg) rotateY(52deg) rotateZ(289deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(-425deg) rotateY(162deg) rotateZ(281deg) translateZ(-298px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(377deg) rotateY(52deg) rotateZ(289deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(-425deg) rotateY(162deg) rotateZ(281deg) translateZ(-298px);
     }
     90% {
         opacity: 1;
@@ -2707,7 +2707,7 @@ div {
     color: #8b15ae;
     -webkit-clip-path: polygon(80% 100%, 90% 100%, 90% 150%);
     clip-path: polygon(80% 100%, 90% 100%, 90% 150%);
-    transform-origin: 45% 111%;
+    transform-origin: 79% 130%;
     -webkit-animation: fly58 5000ms 2280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly58 5000ms 2280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2715,11 +2715,11 @@ div {
 @-webkit-keyframes fly58 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-303deg) rotateY(-490deg) rotateZ(296deg) translateZ(-147px);
+        transform: translate(-50%, -50%) rotateX(-184deg) rotateY(6deg) rotateZ(215deg) translateZ(-103px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-303deg) rotateY(-490deg) rotateZ(296deg) translateZ(-147px);
+        transform: translate(-50%, -50%) rotateX(-184deg) rotateY(6deg) rotateZ(215deg) translateZ(-103px);
     }
     90% {
         opacity: 1;
@@ -2734,11 +2734,11 @@ div {
 @keyframes fly58 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-303deg) rotateY(-490deg) rotateZ(296deg) translateZ(-147px);
+        transform: translate(-50%, -50%) rotateX(-184deg) rotateY(6deg) rotateZ(215deg) translateZ(-103px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-303deg) rotateY(-490deg) rotateZ(296deg) translateZ(-147px);
+        transform: translate(-50%, -50%) rotateX(-184deg) rotateY(6deg) rotateZ(215deg) translateZ(-103px);
     }
     90% {
         opacity: 1;
@@ -2754,7 +2754,7 @@ div {
     color: #8915b1;
     -webkit-clip-path: polygon(90% 100%, 90% 150%, 100% 150%);
     clip-path: polygon(90% 100%, 90% 150%, 100% 150%);
-    transform-origin: 73% 86%;
+    transform-origin: 51% 76%;
     -webkit-animation: fly59 5000ms 2320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly59 5000ms 2320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2762,11 +2762,11 @@ div {
 @-webkit-keyframes fly59 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(-12deg) rotateZ(-407deg) translateZ(-2079px);
+        transform: translate(-50%, -50%) rotateX(-418deg) rotateY(184deg) rotateZ(-281deg) translateZ(-2378px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(-12deg) rotateZ(-407deg) translateZ(-2079px);
+        transform: translate(-50%, -50%) rotateX(-418deg) rotateY(184deg) rotateZ(-281deg) translateZ(-2378px);
     }
     90% {
         opacity: 1;
@@ -2781,11 +2781,11 @@ div {
 @keyframes fly59 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(-12deg) rotateZ(-407deg) translateZ(-2079px);
+        transform: translate(-50%, -50%) rotateX(-418deg) rotateY(184deg) rotateZ(-281deg) translateZ(-2378px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(402deg) rotateY(-12deg) rotateZ(-407deg) translateZ(-2079px);
+        transform: translate(-50%, -50%) rotateX(-418deg) rotateY(184deg) rotateZ(-281deg) translateZ(-2378px);
     }
     90% {
         opacity: 1;
@@ -2801,7 +2801,7 @@ div {
     color: #8714b4;
     -webkit-clip-path: polygon(90% 100%, 100% 100%, 100% 150%);
     clip-path: polygon(90% 100%, 100% 100%, 100% 150%);
-    transform-origin: 92% 69%;
+    transform-origin: 44% 145%;
     -webkit-animation: fly60 5000ms 2360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly60 5000ms 2360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2809,11 +2809,11 @@ div {
 @-webkit-keyframes fly60 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(408deg) rotateY(-138deg) rotateZ(-78deg) translateZ(-1086px);
+        transform: translate(-50%, -50%) rotateX(290deg) rotateY(335deg) rotateZ(121deg) translateZ(-1150px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(408deg) rotateY(-138deg) rotateZ(-78deg) translateZ(-1086px);
+        transform: translate(-50%, -50%) rotateX(290deg) rotateY(335deg) rotateZ(121deg) translateZ(-1150px);
     }
     90% {
         opacity: 1;
@@ -2828,11 +2828,11 @@ div {
 @keyframes fly60 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(408deg) rotateY(-138deg) rotateZ(-78deg) translateZ(-1086px);
+        transform: translate(-50%, -50%) rotateX(290deg) rotateY(335deg) rotateZ(121deg) translateZ(-1150px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(408deg) rotateY(-138deg) rotateZ(-78deg) translateZ(-1086px);
+        transform: translate(-50%, -50%) rotateX(290deg) rotateY(335deg) rotateZ(121deg) translateZ(-1150px);
     }
     90% {
         opacity: 1;
@@ -2848,7 +2848,7 @@ div {
     color: #8514b7;
     -webkit-clip-path: polygon(0% 150%, 0% 200%, 10% 200%);
     clip-path: polygon(0% 150%, 0% 200%, 10% 200%);
-    transform-origin: -5% 149%;
+    transform-origin: -2% 128%;
     -webkit-animation: fly61 5000ms 2400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly61 5000ms 2400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2856,11 +2856,11 @@ div {
 @-webkit-keyframes fly61 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-421deg) rotateY(-102deg) rotateZ(173deg) translateZ(-919px);
+        transform: translate(-50%, -50%) rotateX(88deg) rotateY(-54deg) rotateZ(127deg) translateZ(-13px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-421deg) rotateY(-102deg) rotateZ(173deg) translateZ(-919px);
+        transform: translate(-50%, -50%) rotateX(88deg) rotateY(-54deg) rotateZ(127deg) translateZ(-13px);
     }
     90% {
         opacity: 1;
@@ -2875,11 +2875,11 @@ div {
 @keyframes fly61 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-421deg) rotateY(-102deg) rotateZ(173deg) translateZ(-919px);
+        transform: translate(-50%, -50%) rotateX(88deg) rotateY(-54deg) rotateZ(127deg) translateZ(-13px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-421deg) rotateY(-102deg) rotateZ(173deg) translateZ(-919px);
+        transform: translate(-50%, -50%) rotateX(88deg) rotateY(-54deg) rotateZ(127deg) translateZ(-13px);
     }
     90% {
         opacity: 1;
@@ -2895,7 +2895,7 @@ div {
     color: #8313ba;
     -webkit-clip-path: polygon(0% 150%, 10% 150%, 10% 200%);
     clip-path: polygon(0% 150%, 10% 150%, 10% 200%);
-    transform-origin: -38% 102%;
+    transform-origin: -4% 141%;
     -webkit-animation: fly62 5000ms 2440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly62 5000ms 2440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2903,11 +2903,11 @@ div {
 @-webkit-keyframes fly62 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(465deg) rotateY(-199deg) rotateZ(-131deg) translateZ(122px);
+        transform: translate(-50%, -50%) rotateX(140deg) rotateY(234deg) rotateZ(-228deg) translateZ(-1091px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(465deg) rotateY(-199deg) rotateZ(-131deg) translateZ(122px);
+        transform: translate(-50%, -50%) rotateX(140deg) rotateY(234deg) rotateZ(-228deg) translateZ(-1091px);
     }
     90% {
         opacity: 1;
@@ -2922,11 +2922,11 @@ div {
 @keyframes fly62 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(465deg) rotateY(-199deg) rotateZ(-131deg) translateZ(122px);
+        transform: translate(-50%, -50%) rotateX(140deg) rotateY(234deg) rotateZ(-228deg) translateZ(-1091px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(465deg) rotateY(-199deg) rotateZ(-131deg) translateZ(122px);
+        transform: translate(-50%, -50%) rotateX(140deg) rotateY(234deg) rotateZ(-228deg) translateZ(-1091px);
     }
     90% {
         opacity: 1;
@@ -2942,7 +2942,7 @@ div {
     color: #8113bd;
     -webkit-clip-path: polygon(10% 150%, 10% 200%, 20% 200%);
     clip-path: polygon(10% 150%, 10% 200%, 20% 200%);
-    transform-origin: -23% 167%;
+    transform-origin: -20% 169%;
     -webkit-animation: fly63 5000ms 2480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly63 5000ms 2480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2950,11 +2950,11 @@ div {
 @-webkit-keyframes fly63 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-310deg) rotateY(441deg) rotateZ(-465deg) translateZ(-293px);
+        transform: translate(-50%, -50%) rotateX(205deg) rotateY(159deg) rotateZ(103deg) translateZ(-294px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-310deg) rotateY(441deg) rotateZ(-465deg) translateZ(-293px);
+        transform: translate(-50%, -50%) rotateX(205deg) rotateY(159deg) rotateZ(103deg) translateZ(-294px);
     }
     90% {
         opacity: 1;
@@ -2969,11 +2969,11 @@ div {
 @keyframes fly63 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-310deg) rotateY(441deg) rotateZ(-465deg) translateZ(-293px);
+        transform: translate(-50%, -50%) rotateX(205deg) rotateY(159deg) rotateZ(103deg) translateZ(-294px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-310deg) rotateY(441deg) rotateZ(-465deg) translateZ(-293px);
+        transform: translate(-50%, -50%) rotateX(205deg) rotateY(159deg) rotateZ(103deg) translateZ(-294px);
     }
     90% {
         opacity: 1;
@@ -2989,7 +2989,7 @@ div {
     color: #7f12c0;
     -webkit-clip-path: polygon(10% 150%, 20% 150%, 20% 200%);
     clip-path: polygon(10% 150%, 20% 150%, 20% 200%);
-    transform-origin: 40% 110%;
+    transform-origin: 10% 121%;
     -webkit-animation: fly64 5000ms 2520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly64 5000ms 2520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -2997,11 +2997,11 @@ div {
 @-webkit-keyframes fly64 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-98deg) rotateY(-141deg) rotateZ(-10deg) translateZ(-2356px);
+        transform: translate(-50%, -50%) rotateX(270deg) rotateY(-211deg) rotateZ(225deg) translateZ(484px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-98deg) rotateY(-141deg) rotateZ(-10deg) translateZ(-2356px);
+        transform: translate(-50%, -50%) rotateX(270deg) rotateY(-211deg) rotateZ(225deg) translateZ(484px);
     }
     90% {
         opacity: 1;
@@ -3016,11 +3016,11 @@ div {
 @keyframes fly64 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-98deg) rotateY(-141deg) rotateZ(-10deg) translateZ(-2356px);
+        transform: translate(-50%, -50%) rotateX(270deg) rotateY(-211deg) rotateZ(225deg) translateZ(484px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-98deg) rotateY(-141deg) rotateZ(-10deg) translateZ(-2356px);
+        transform: translate(-50%, -50%) rotateX(270deg) rotateY(-211deg) rotateZ(225deg) translateZ(484px);
     }
     90% {
         opacity: 1;
@@ -3036,7 +3036,7 @@ div {
     color: #7d12c3;
     -webkit-clip-path: polygon(20% 150%, 20% 200%, 30% 200%);
     clip-path: polygon(20% 150%, 20% 200%, 30% 200%);
-    transform-origin: 36% 130%;
+    transform-origin: -16% 122%;
     -webkit-animation: fly65 5000ms 2560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly65 5000ms 2560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3044,11 +3044,11 @@ div {
 @-webkit-keyframes fly65 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-413deg) rotateY(419deg) rotateZ(438deg) translateZ(-1546px);
+        transform: translate(-50%, -50%) rotateX(-469deg) rotateY(-162deg) rotateZ(-315deg) translateZ(-908px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-413deg) rotateY(419deg) rotateZ(438deg) translateZ(-1546px);
+        transform: translate(-50%, -50%) rotateX(-469deg) rotateY(-162deg) rotateZ(-315deg) translateZ(-908px);
     }
     90% {
         opacity: 1;
@@ -3063,11 +3063,11 @@ div {
 @keyframes fly65 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-413deg) rotateY(419deg) rotateZ(438deg) translateZ(-1546px);
+        transform: translate(-50%, -50%) rotateX(-469deg) rotateY(-162deg) rotateZ(-315deg) translateZ(-908px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-413deg) rotateY(419deg) rotateZ(438deg) translateZ(-1546px);
+        transform: translate(-50%, -50%) rotateX(-469deg) rotateY(-162deg) rotateZ(-315deg) translateZ(-908px);
     }
     90% {
         opacity: 1;
@@ -3083,7 +3083,7 @@ div {
     color: #7b11c6;
     -webkit-clip-path: polygon(20% 150%, 30% 150%, 30% 200%);
     clip-path: polygon(20% 150%, 30% 150%, 30% 200%);
-    transform-origin: 27% 177%;
+    transform-origin: 60% 199%;
     -webkit-animation: fly66 5000ms 2600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly66 5000ms 2600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3091,11 +3091,11 @@ div {
 @-webkit-keyframes fly66 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-190deg) rotateY(69deg) rotateZ(-241deg) translateZ(-53px);
+        transform: translate(-50%, -50%) rotateX(-141deg) rotateY(-236deg) rotateZ(-397deg) translateZ(-1844px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-190deg) rotateY(69deg) rotateZ(-241deg) translateZ(-53px);
+        transform: translate(-50%, -50%) rotateX(-141deg) rotateY(-236deg) rotateZ(-397deg) translateZ(-1844px);
     }
     90% {
         opacity: 1;
@@ -3110,11 +3110,11 @@ div {
 @keyframes fly66 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-190deg) rotateY(69deg) rotateZ(-241deg) translateZ(-53px);
+        transform: translate(-50%, -50%) rotateX(-141deg) rotateY(-236deg) rotateZ(-397deg) translateZ(-1844px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-190deg) rotateY(69deg) rotateZ(-241deg) translateZ(-53px);
+        transform: translate(-50%, -50%) rotateX(-141deg) rotateY(-236deg) rotateZ(-397deg) translateZ(-1844px);
     }
     90% {
         opacity: 1;
@@ -3130,7 +3130,7 @@ div {
     color: #7911c9;
     -webkit-clip-path: polygon(30% 150%, 30% 200%, 40% 200%);
     clip-path: polygon(30% 150%, 30% 200%, 40% 200%);
-    transform-origin: 17% 140%;
+    transform-origin: 13% 170%;
     -webkit-animation: fly67 5000ms 2640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly67 5000ms 2640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3138,11 +3138,11 @@ div {
 @-webkit-keyframes fly67 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(119deg) rotateY(302deg) rotateZ(318deg) translateZ(-1033px);
+        transform: translate(-50%, -50%) rotateX(76deg) rotateY(-310deg) rotateZ(475deg) translateZ(-1852px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(119deg) rotateY(302deg) rotateZ(318deg) translateZ(-1033px);
+        transform: translate(-50%, -50%) rotateX(76deg) rotateY(-310deg) rotateZ(475deg) translateZ(-1852px);
     }
     90% {
         opacity: 1;
@@ -3157,11 +3157,11 @@ div {
 @keyframes fly67 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(119deg) rotateY(302deg) rotateZ(318deg) translateZ(-1033px);
+        transform: translate(-50%, -50%) rotateX(76deg) rotateY(-310deg) rotateZ(475deg) translateZ(-1852px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(119deg) rotateY(302deg) rotateZ(318deg) translateZ(-1033px);
+        transform: translate(-50%, -50%) rotateX(76deg) rotateY(-310deg) rotateZ(475deg) translateZ(-1852px);
     }
     90% {
         opacity: 1;
@@ -3177,7 +3177,7 @@ div {
     color: #7710cc;
     -webkit-clip-path: polygon(30% 150%, 40% 150%, 40% 200%);
     clip-path: polygon(30% 150%, 40% 150%, 40% 200%);
-    transform-origin: 80% 104%;
+    transform-origin: 30% 198%;
     -webkit-animation: fly68 5000ms 2680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly68 5000ms 2680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3185,11 +3185,11 @@ div {
 @-webkit-keyframes fly68 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(289deg) rotateY(-65deg) rotateZ(228deg) translateZ(-1817px);
+        transform: translate(-50%, -50%) rotateX(197deg) rotateY(-187deg) rotateZ(16deg) translateZ(-1820px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(289deg) rotateY(-65deg) rotateZ(228deg) translateZ(-1817px);
+        transform: translate(-50%, -50%) rotateX(197deg) rotateY(-187deg) rotateZ(16deg) translateZ(-1820px);
     }
     90% {
         opacity: 1;
@@ -3204,11 +3204,11 @@ div {
 @keyframes fly68 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(289deg) rotateY(-65deg) rotateZ(228deg) translateZ(-1817px);
+        transform: translate(-50%, -50%) rotateX(197deg) rotateY(-187deg) rotateZ(16deg) translateZ(-1820px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(289deg) rotateY(-65deg) rotateZ(228deg) translateZ(-1817px);
+        transform: translate(-50%, -50%) rotateX(197deg) rotateY(-187deg) rotateZ(16deg) translateZ(-1820px);
     }
     90% {
         opacity: 1;
@@ -3224,7 +3224,7 @@ div {
     color: #7510cf;
     -webkit-clip-path: polygon(40% 150%, 40% 200%, 50% 200%);
     clip-path: polygon(40% 150%, 40% 200%, 50% 200%);
-    transform-origin: -4% 195%;
+    transform-origin: -3% 181%;
     -webkit-animation: fly69 5000ms 2720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly69 5000ms 2720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3232,11 +3232,11 @@ div {
 @-webkit-keyframes fly69 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(110deg) rotateY(-258deg) rotateZ(396deg) translateZ(452px);
+        transform: translate(-50%, -50%) rotateX(129deg) rotateY(201deg) rotateZ(-452deg) translateZ(-81px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(110deg) rotateY(-258deg) rotateZ(396deg) translateZ(452px);
+        transform: translate(-50%, -50%) rotateX(129deg) rotateY(201deg) rotateZ(-452deg) translateZ(-81px);
     }
     90% {
         opacity: 1;
@@ -3251,11 +3251,11 @@ div {
 @keyframes fly69 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(110deg) rotateY(-258deg) rotateZ(396deg) translateZ(452px);
+        transform: translate(-50%, -50%) rotateX(129deg) rotateY(201deg) rotateZ(-452deg) translateZ(-81px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(110deg) rotateY(-258deg) rotateZ(396deg) translateZ(452px);
+        transform: translate(-50%, -50%) rotateX(129deg) rotateY(201deg) rotateZ(-452deg) translateZ(-81px);
     }
     90% {
         opacity: 1;
@@ -3271,7 +3271,7 @@ div {
     color: #730fd2;
     -webkit-clip-path: polygon(40% 150%, 50% 150%, 50% 200%);
     clip-path: polygon(40% 150%, 50% 150%, 50% 200%);
-    transform-origin: 24% 109%;
+    transform-origin: 68% 125%;
     -webkit-animation: fly70 5000ms 2760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly70 5000ms 2760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3279,11 +3279,11 @@ div {
 @-webkit-keyframes fly70 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-64deg) rotateY(-487deg) rotateZ(42deg) translateZ(-1252px);
+        transform: translate(-50%, -50%) rotateX(126deg) rotateY(-136deg) rotateZ(-242deg) translateZ(-1617px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-64deg) rotateY(-487deg) rotateZ(42deg) translateZ(-1252px);
+        transform: translate(-50%, -50%) rotateX(126deg) rotateY(-136deg) rotateZ(-242deg) translateZ(-1617px);
     }
     90% {
         opacity: 1;
@@ -3298,11 +3298,11 @@ div {
 @keyframes fly70 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-64deg) rotateY(-487deg) rotateZ(42deg) translateZ(-1252px);
+        transform: translate(-50%, -50%) rotateX(126deg) rotateY(-136deg) rotateZ(-242deg) translateZ(-1617px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-64deg) rotateY(-487deg) rotateZ(42deg) translateZ(-1252px);
+        transform: translate(-50%, -50%) rotateX(126deg) rotateY(-136deg) rotateZ(-242deg) translateZ(-1617px);
     }
     90% {
         opacity: 1;
@@ -3318,7 +3318,7 @@ div {
     color: #710fd5;
     -webkit-clip-path: polygon(50% 150%, 50% 200%, 60% 200%);
     clip-path: polygon(50% 150%, 50% 200%, 60% 200%);
-    transform-origin: 8% 120%;
+    transform-origin: 100% 151%;
     -webkit-animation: fly71 5000ms 2800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly71 5000ms 2800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3326,11 +3326,11 @@ div {
 @-webkit-keyframes fly71 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(219deg) rotateY(270deg) rotateZ(-276deg) translateZ(-2023px);
+        transform: translate(-50%, -50%) rotateX(-73deg) rotateY(-382deg) rotateZ(-124deg) translateZ(-497px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(219deg) rotateY(270deg) rotateZ(-276deg) translateZ(-2023px);
+        transform: translate(-50%, -50%) rotateX(-73deg) rotateY(-382deg) rotateZ(-124deg) translateZ(-497px);
     }
     90% {
         opacity: 1;
@@ -3345,11 +3345,11 @@ div {
 @keyframes fly71 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(219deg) rotateY(270deg) rotateZ(-276deg) translateZ(-2023px);
+        transform: translate(-50%, -50%) rotateX(-73deg) rotateY(-382deg) rotateZ(-124deg) translateZ(-497px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(219deg) rotateY(270deg) rotateZ(-276deg) translateZ(-2023px);
+        transform: translate(-50%, -50%) rotateX(-73deg) rotateY(-382deg) rotateZ(-124deg) translateZ(-497px);
     }
     90% {
         opacity: 1;
@@ -3365,7 +3365,7 @@ div {
     color: #6f0ed8;
     -webkit-clip-path: polygon(50% 150%, 60% 150%, 60% 200%);
     clip-path: polygon(50% 150%, 60% 150%, 60% 200%);
-    transform-origin: 46% 115%;
+    transform-origin: 10% 127%;
     -webkit-animation: fly72 5000ms 2840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly72 5000ms 2840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3373,11 +3373,11 @@ div {
 @-webkit-keyframes fly72 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(473deg) rotateY(130deg) rotateZ(486deg) translateZ(-1066px);
+        transform: translate(-50%, -50%) rotateX(30deg) rotateY(-145deg) rotateZ(169deg) translateZ(-372px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(473deg) rotateY(130deg) rotateZ(486deg) translateZ(-1066px);
+        transform: translate(-50%, -50%) rotateX(30deg) rotateY(-145deg) rotateZ(169deg) translateZ(-372px);
     }
     90% {
         opacity: 1;
@@ -3392,11 +3392,11 @@ div {
 @keyframes fly72 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(473deg) rotateY(130deg) rotateZ(486deg) translateZ(-1066px);
+        transform: translate(-50%, -50%) rotateX(30deg) rotateY(-145deg) rotateZ(169deg) translateZ(-372px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(473deg) rotateY(130deg) rotateZ(486deg) translateZ(-1066px);
+        transform: translate(-50%, -50%) rotateX(30deg) rotateY(-145deg) rotateZ(169deg) translateZ(-372px);
     }
     90% {
         opacity: 1;
@@ -3412,7 +3412,7 @@ div {
     color: #6d0edb;
     -webkit-clip-path: polygon(60% 150%, 60% 200%, 70% 200%);
     clip-path: polygon(60% 150%, 60% 200%, 70% 200%);
-    transform-origin: 84% 115%;
+    transform-origin: 77% 149%;
     -webkit-animation: fly73 5000ms 2880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly73 5000ms 2880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3420,11 +3420,11 @@ div {
 @-webkit-keyframes fly73 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-361deg) rotateY(-437deg) rotateZ(354deg) translateZ(27px);
+        transform: translate(-50%, -50%) rotateX(70deg) rotateY(-33deg) rotateZ(-441deg) translateZ(-982px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-361deg) rotateY(-437deg) rotateZ(354deg) translateZ(27px);
+        transform: translate(-50%, -50%) rotateX(70deg) rotateY(-33deg) rotateZ(-441deg) translateZ(-982px);
     }
     90% {
         opacity: 1;
@@ -3439,11 +3439,11 @@ div {
 @keyframes fly73 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-361deg) rotateY(-437deg) rotateZ(354deg) translateZ(27px);
+        transform: translate(-50%, -50%) rotateX(70deg) rotateY(-33deg) rotateZ(-441deg) translateZ(-982px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-361deg) rotateY(-437deg) rotateZ(354deg) translateZ(27px);
+        transform: translate(-50%, -50%) rotateX(70deg) rotateY(-33deg) rotateZ(-441deg) translateZ(-982px);
     }
     90% {
         opacity: 1;
@@ -3459,7 +3459,7 @@ div {
     color: #6b0dde;
     -webkit-clip-path: polygon(60% 150%, 70% 150%, 70% 200%);
     clip-path: polygon(60% 150%, 70% 150%, 70% 200%);
-    transform-origin: 90% 112%;
+    transform-origin: 100% 142%;
     -webkit-animation: fly74 5000ms 2920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly74 5000ms 2920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3467,11 +3467,11 @@ div {
 @-webkit-keyframes fly74 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-299deg) rotateY(-424deg) rotateZ(31deg) translateZ(91px);
+        transform: translate(-50%, -50%) rotateX(-26deg) rotateY(-137deg) rotateZ(-367deg) translateZ(-482px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-299deg) rotateY(-424deg) rotateZ(31deg) translateZ(91px);
+        transform: translate(-50%, -50%) rotateX(-26deg) rotateY(-137deg) rotateZ(-367deg) translateZ(-482px);
     }
     90% {
         opacity: 1;
@@ -3486,11 +3486,11 @@ div {
 @keyframes fly74 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-299deg) rotateY(-424deg) rotateZ(31deg) translateZ(91px);
+        transform: translate(-50%, -50%) rotateX(-26deg) rotateY(-137deg) rotateZ(-367deg) translateZ(-482px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-299deg) rotateY(-424deg) rotateZ(31deg) translateZ(91px);
+        transform: translate(-50%, -50%) rotateX(-26deg) rotateY(-137deg) rotateZ(-367deg) translateZ(-482px);
     }
     90% {
         opacity: 1;
@@ -3506,7 +3506,7 @@ div {
     color: #690de1;
     -webkit-clip-path: polygon(70% 150%, 70% 200%, 80% 200%);
     clip-path: polygon(70% 150%, 70% 200%, 80% 200%);
-    transform-origin: 33% 183%;
+    transform-origin: 98% 130%;
     -webkit-animation: fly75 5000ms 2960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly75 5000ms 2960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3514,11 +3514,11 @@ div {
 @-webkit-keyframes fly75 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(500deg) rotateY(115deg) rotateZ(494deg) translateZ(118px);
+        transform: translate(-50%, -50%) rotateX(168deg) rotateY(153deg) rotateZ(373deg) translateZ(-1901px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(500deg) rotateY(115deg) rotateZ(494deg) translateZ(118px);
+        transform: translate(-50%, -50%) rotateX(168deg) rotateY(153deg) rotateZ(373deg) translateZ(-1901px);
     }
     90% {
         opacity: 1;
@@ -3533,11 +3533,11 @@ div {
 @keyframes fly75 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(500deg) rotateY(115deg) rotateZ(494deg) translateZ(118px);
+        transform: translate(-50%, -50%) rotateX(168deg) rotateY(153deg) rotateZ(373deg) translateZ(-1901px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(500deg) rotateY(115deg) rotateZ(494deg) translateZ(118px);
+        transform: translate(-50%, -50%) rotateX(168deg) rotateY(153deg) rotateZ(373deg) translateZ(-1901px);
     }
     90% {
         opacity: 1;
@@ -3553,7 +3553,7 @@ div {
     color: #670ce4;
     -webkit-clip-path: polygon(70% 150%, 80% 150%, 80% 200%);
     clip-path: polygon(70% 150%, 80% 150%, 80% 200%);
-    transform-origin: 113% 174%;
+    transform-origin: 86% 180%;
     -webkit-animation: fly76 5000ms 3000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly76 5000ms 3000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3561,11 +3561,11 @@ div {
 @-webkit-keyframes fly76 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(140deg) rotateY(293deg) rotateZ(-125deg) translateZ(-1860px);
+        transform: translate(-50%, -50%) rotateX(248deg) rotateY(-441deg) rotateZ(178deg) translateZ(40px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(140deg) rotateY(293deg) rotateZ(-125deg) translateZ(-1860px);
+        transform: translate(-50%, -50%) rotateX(248deg) rotateY(-441deg) rotateZ(178deg) translateZ(40px);
     }
     90% {
         opacity: 1;
@@ -3580,11 +3580,11 @@ div {
 @keyframes fly76 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(140deg) rotateY(293deg) rotateZ(-125deg) translateZ(-1860px);
+        transform: translate(-50%, -50%) rotateX(248deg) rotateY(-441deg) rotateZ(178deg) translateZ(40px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(140deg) rotateY(293deg) rotateZ(-125deg) translateZ(-1860px);
+        transform: translate(-50%, -50%) rotateX(248deg) rotateY(-441deg) rotateZ(178deg) translateZ(40px);
     }
     90% {
         opacity: 1;
@@ -3600,7 +3600,7 @@ div {
     color: #650ce7;
     -webkit-clip-path: polygon(80% 150%, 80% 200%, 90% 200%);
     clip-path: polygon(80% 150%, 80% 200%, 90% 200%);
-    transform-origin: 31% 166%;
+    transform-origin: 51% 112%;
     -webkit-animation: fly77 5000ms 3040ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly77 5000ms 3040ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3608,11 +3608,11 @@ div {
 @-webkit-keyframes fly77 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(143deg) rotateY(-484deg) rotateZ(-487deg) translateZ(398px);
+        transform: translate(-50%, -50%) rotateX(-278deg) rotateY(-100deg) rotateZ(105deg) translateZ(-2353px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(143deg) rotateY(-484deg) rotateZ(-487deg) translateZ(398px);
+        transform: translate(-50%, -50%) rotateX(-278deg) rotateY(-100deg) rotateZ(105deg) translateZ(-2353px);
     }
     90% {
         opacity: 1;
@@ -3627,11 +3627,11 @@ div {
 @keyframes fly77 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(143deg) rotateY(-484deg) rotateZ(-487deg) translateZ(398px);
+        transform: translate(-50%, -50%) rotateX(-278deg) rotateY(-100deg) rotateZ(105deg) translateZ(-2353px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(143deg) rotateY(-484deg) rotateZ(-487deg) translateZ(398px);
+        transform: translate(-50%, -50%) rotateX(-278deg) rotateY(-100deg) rotateZ(105deg) translateZ(-2353px);
     }
     90% {
         opacity: 1;
@@ -3647,7 +3647,7 @@ div {
     color: #630bea;
     -webkit-clip-path: polygon(80% 150%, 90% 150%, 90% 200%);
     clip-path: polygon(80% 150%, 90% 150%, 90% 200%);
-    transform-origin: 59% 179%;
+    transform-origin: 76% 149%;
     -webkit-animation: fly78 5000ms 3080ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly78 5000ms 3080ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3655,11 +3655,11 @@ div {
 @-webkit-keyframes fly78 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(243deg) rotateY(1deg) rotateZ(382deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(207deg) rotateY(489deg) rotateZ(162deg) translateZ(-1468px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(243deg) rotateY(1deg) rotateZ(382deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(207deg) rotateY(489deg) rotateZ(162deg) translateZ(-1468px);
     }
     90% {
         opacity: 1;
@@ -3674,11 +3674,11 @@ div {
 @keyframes fly78 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(243deg) rotateY(1deg) rotateZ(382deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(207deg) rotateY(489deg) rotateZ(162deg) translateZ(-1468px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(243deg) rotateY(1deg) rotateZ(382deg) translateZ(-221px);
+        transform: translate(-50%, -50%) rotateX(207deg) rotateY(489deg) rotateZ(162deg) translateZ(-1468px);
     }
     90% {
         opacity: 1;
@@ -3694,7 +3694,7 @@ div {
     color: #610bed;
     -webkit-clip-path: polygon(90% 150%, 90% 200%, 100% 200%);
     clip-path: polygon(90% 150%, 90% 200%, 100% 200%);
-    transform-origin: 113% 101%;
+    transform-origin: 46% 139%;
     -webkit-animation: fly79 5000ms 3120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly79 5000ms 3120ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3702,11 +3702,11 @@ div {
 @-webkit-keyframes fly79 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-464deg) rotateY(-111deg) rotateZ(-431deg) translateZ(-1498px);
+        transform: translate(-50%, -50%) rotateX(423deg) rotateY(145deg) rotateZ(-233deg) translateZ(-2163px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-464deg) rotateY(-111deg) rotateZ(-431deg) translateZ(-1498px);
+        transform: translate(-50%, -50%) rotateX(423deg) rotateY(145deg) rotateZ(-233deg) translateZ(-2163px);
     }
     90% {
         opacity: 1;
@@ -3721,11 +3721,11 @@ div {
 @keyframes fly79 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-464deg) rotateY(-111deg) rotateZ(-431deg) translateZ(-1498px);
+        transform: translate(-50%, -50%) rotateX(423deg) rotateY(145deg) rotateZ(-233deg) translateZ(-2163px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-464deg) rotateY(-111deg) rotateZ(-431deg) translateZ(-1498px);
+        transform: translate(-50%, -50%) rotateX(423deg) rotateY(145deg) rotateZ(-233deg) translateZ(-2163px);
     }
     90% {
         opacity: 1;
@@ -3741,7 +3741,7 @@ div {
     color: #5f0af0;
     -webkit-clip-path: polygon(90% 150%, 100% 150%, 100% 200%);
     clip-path: polygon(90% 150%, 100% 150%, 100% 200%);
-    transform-origin: 132% 184%;
+    transform-origin: 95% 108%;
     -webkit-animation: fly80 5000ms 3160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly80 5000ms 3160ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3749,11 +3749,11 @@ div {
 @-webkit-keyframes fly80 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(0deg) rotateY(-319deg) rotateZ(-32deg) translateZ(-278px);
+        transform: translate(-50%, -50%) rotateX(442deg) rotateY(357deg) rotateZ(-454deg) translateZ(-121px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(0deg) rotateY(-319deg) rotateZ(-32deg) translateZ(-278px);
+        transform: translate(-50%, -50%) rotateX(442deg) rotateY(357deg) rotateZ(-454deg) translateZ(-121px);
     }
     90% {
         opacity: 1;
@@ -3768,11 +3768,11 @@ div {
 @keyframes fly80 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(0deg) rotateY(-319deg) rotateZ(-32deg) translateZ(-278px);
+        transform: translate(-50%, -50%) rotateX(442deg) rotateY(357deg) rotateZ(-454deg) translateZ(-121px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(0deg) rotateY(-319deg) rotateZ(-32deg) translateZ(-278px);
+        transform: translate(-50%, -50%) rotateX(442deg) rotateY(357deg) rotateZ(-454deg) translateZ(-121px);
     }
     90% {
         opacity: 1;
@@ -3788,7 +3788,7 @@ div {
     color: #5d0af3;
     -webkit-clip-path: polygon(0% 200%, 0% 250%, 10% 250%);
     clip-path: polygon(0% 200%, 0% 250%, 10% 250%);
-    transform-origin: 22% 171%;
+    transform-origin: 43% 210%;
     -webkit-animation: fly81 5000ms 3200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly81 5000ms 3200ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3796,11 +3796,11 @@ div {
 @-webkit-keyframes fly81 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(78deg) rotateY(-76deg) rotateZ(-349deg) translateZ(-2011px);
+        transform: translate(-50%, -50%) rotateX(410deg) rotateY(473deg) rotateZ(490deg) translateZ(-832px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(78deg) rotateY(-76deg) rotateZ(-349deg) translateZ(-2011px);
+        transform: translate(-50%, -50%) rotateX(410deg) rotateY(473deg) rotateZ(490deg) translateZ(-832px);
     }
     90% {
         opacity: 1;
@@ -3815,11 +3815,11 @@ div {
 @keyframes fly81 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(78deg) rotateY(-76deg) rotateZ(-349deg) translateZ(-2011px);
+        transform: translate(-50%, -50%) rotateX(410deg) rotateY(473deg) rotateZ(490deg) translateZ(-832px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(78deg) rotateY(-76deg) rotateZ(-349deg) translateZ(-2011px);
+        transform: translate(-50%, -50%) rotateX(410deg) rotateY(473deg) rotateZ(490deg) translateZ(-832px);
     }
     90% {
         opacity: 1;
@@ -3835,7 +3835,7 @@ div {
     color: #5b09f6;
     -webkit-clip-path: polygon(0% 200%, 10% 200%, 10% 250%);
     clip-path: polygon(0% 200%, 10% 200%, 10% 250%);
-    transform-origin: -5% 230%;
+    transform-origin: 1% 200%;
     -webkit-animation: fly82 5000ms 3240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly82 5000ms 3240ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3843,11 +3843,11 @@ div {
 @-webkit-keyframes fly82 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(214deg) rotateY(-229deg) rotateZ(-355deg) translateZ(-1201px);
+        transform: translate(-50%, -50%) rotateX(454deg) rotateY(186deg) rotateZ(-182deg) translateZ(-1279px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(214deg) rotateY(-229deg) rotateZ(-355deg) translateZ(-1201px);
+        transform: translate(-50%, -50%) rotateX(454deg) rotateY(186deg) rotateZ(-182deg) translateZ(-1279px);
     }
     90% {
         opacity: 1;
@@ -3862,11 +3862,11 @@ div {
 @keyframes fly82 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(214deg) rotateY(-229deg) rotateZ(-355deg) translateZ(-1201px);
+        transform: translate(-50%, -50%) rotateX(454deg) rotateY(186deg) rotateZ(-182deg) translateZ(-1279px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(214deg) rotateY(-229deg) rotateZ(-355deg) translateZ(-1201px);
+        transform: translate(-50%, -50%) rotateX(454deg) rotateY(186deg) rotateZ(-182deg) translateZ(-1279px);
     }
     90% {
         opacity: 1;
@@ -3882,7 +3882,7 @@ div {
     color: #5909f9;
     -webkit-clip-path: polygon(10% 200%, 10% 250%, 20% 250%);
     clip-path: polygon(10% 200%, 10% 250%, 20% 250%);
-    transform-origin: -10% 213%;
+    transform-origin: -6% 237%;
     -webkit-animation: fly83 5000ms 3280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly83 5000ms 3280ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3890,11 +3890,11 @@ div {
 @-webkit-keyframes fly83 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(262deg) rotateY(218deg) rotateZ(-470deg) translateZ(-1870px);
+        transform: translate(-50%, -50%) rotateX(-149deg) rotateY(243deg) rotateZ(104deg) translateZ(-1740px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(262deg) rotateY(218deg) rotateZ(-470deg) translateZ(-1870px);
+        transform: translate(-50%, -50%) rotateX(-149deg) rotateY(243deg) rotateZ(104deg) translateZ(-1740px);
     }
     90% {
         opacity: 1;
@@ -3909,11 +3909,11 @@ div {
 @keyframes fly83 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(262deg) rotateY(218deg) rotateZ(-470deg) translateZ(-1870px);
+        transform: translate(-50%, -50%) rotateX(-149deg) rotateY(243deg) rotateZ(104deg) translateZ(-1740px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(262deg) rotateY(218deg) rotateZ(-470deg) translateZ(-1870px);
+        transform: translate(-50%, -50%) rotateX(-149deg) rotateY(243deg) rotateZ(104deg) translateZ(-1740px);
     }
     90% {
         opacity: 1;
@@ -3929,7 +3929,7 @@ div {
     color: #5708fc;
     -webkit-clip-path: polygon(10% 200%, 20% 200%, 20% 250%);
     clip-path: polygon(10% 200%, 20% 200%, 20% 250%);
-    transform-origin: -38% 245%;
+    transform-origin: 41% 241%;
     -webkit-animation: fly84 5000ms 3320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly84 5000ms 3320ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3937,11 +3937,11 @@ div {
 @-webkit-keyframes fly84 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-233deg) rotateY(162deg) rotateZ(-86deg) translateZ(-2437px);
+        transform: translate(-50%, -50%) rotateX(-161deg) rotateY(-50deg) rotateZ(-21deg) translateZ(-2147px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-233deg) rotateY(162deg) rotateZ(-86deg) translateZ(-2437px);
+        transform: translate(-50%, -50%) rotateX(-161deg) rotateY(-50deg) rotateZ(-21deg) translateZ(-2147px);
     }
     90% {
         opacity: 1;
@@ -3956,11 +3956,11 @@ div {
 @keyframes fly84 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-233deg) rotateY(162deg) rotateZ(-86deg) translateZ(-2437px);
+        transform: translate(-50%, -50%) rotateX(-161deg) rotateY(-50deg) rotateZ(-21deg) translateZ(-2147px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-233deg) rotateY(162deg) rotateZ(-86deg) translateZ(-2437px);
+        transform: translate(-50%, -50%) rotateX(-161deg) rotateY(-50deg) rotateZ(-21deg) translateZ(-2147px);
     }
     90% {
         opacity: 1;
@@ -3976,7 +3976,7 @@ div {
     color: #5508ff;
     -webkit-clip-path: polygon(20% 200%, 20% 250%, 30% 250%);
     clip-path: polygon(20% 200%, 20% 250%, 30% 250%);
-    transform-origin: 26% 161%;
+    transform-origin: -5% 202%;
     -webkit-animation: fly85 5000ms 3360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly85 5000ms 3360ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -3984,11 +3984,11 @@ div {
 @-webkit-keyframes fly85 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(466deg) rotateY(-215deg) rotateZ(85deg) translateZ(-289px);
+        transform: translate(-50%, -50%) rotateX(-135deg) rotateY(-269deg) rotateZ(-446deg) translateZ(134px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(466deg) rotateY(-215deg) rotateZ(85deg) translateZ(-289px);
+        transform: translate(-50%, -50%) rotateX(-135deg) rotateY(-269deg) rotateZ(-446deg) translateZ(134px);
     }
     90% {
         opacity: 1;
@@ -4003,11 +4003,11 @@ div {
 @keyframes fly85 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(466deg) rotateY(-215deg) rotateZ(85deg) translateZ(-289px);
+        transform: translate(-50%, -50%) rotateX(-135deg) rotateY(-269deg) rotateZ(-446deg) translateZ(134px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(466deg) rotateY(-215deg) rotateZ(85deg) translateZ(-289px);
+        transform: translate(-50%, -50%) rotateX(-135deg) rotateY(-269deg) rotateZ(-446deg) translateZ(134px);
     }
     90% {
         opacity: 1;
@@ -4023,7 +4023,7 @@ div {
     color: #5307ff;
     -webkit-clip-path: polygon(20% 200%, 30% 200%, 30% 250%);
     clip-path: polygon(20% 200%, 30% 200%, 30% 250%);
-    transform-origin: 32% 247%;
+    transform-origin: -27% 194%;
     -webkit-animation: fly86 5000ms 3400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly86 5000ms 3400ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4031,11 +4031,11 @@ div {
 @-webkit-keyframes fly86 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-441deg) rotateY(-180deg) rotateZ(424deg) translateZ(-1879px);
+        transform: translate(-50%, -50%) rotateX(-422deg) rotateY(86deg) rotateZ(171deg) translateZ(-1652px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-441deg) rotateY(-180deg) rotateZ(424deg) translateZ(-1879px);
+        transform: translate(-50%, -50%) rotateX(-422deg) rotateY(86deg) rotateZ(171deg) translateZ(-1652px);
     }
     90% {
         opacity: 1;
@@ -4050,11 +4050,11 @@ div {
 @keyframes fly86 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-441deg) rotateY(-180deg) rotateZ(424deg) translateZ(-1879px);
+        transform: translate(-50%, -50%) rotateX(-422deg) rotateY(86deg) rotateZ(171deg) translateZ(-1652px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-441deg) rotateY(-180deg) rotateZ(424deg) translateZ(-1879px);
+        transform: translate(-50%, -50%) rotateX(-422deg) rotateY(86deg) rotateZ(171deg) translateZ(-1652px);
     }
     90% {
         opacity: 1;
@@ -4070,7 +4070,7 @@ div {
     color: #5107ff;
     -webkit-clip-path: polygon(30% 200%, 30% 250%, 40% 250%);
     clip-path: polygon(30% 200%, 30% 250%, 40% 250%);
-    transform-origin: 6% 193%;
+    transform-origin: 0% 159%;
     -webkit-animation: fly87 5000ms 3440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly87 5000ms 3440ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4078,11 +4078,11 @@ div {
 @-webkit-keyframes fly87 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(93deg) rotateY(440deg) rotateZ(-396deg) translateZ(-785px);
+        transform: translate(-50%, -50%) rotateX(-318deg) rotateY(246deg) rotateZ(225deg) translateZ(-105px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(93deg) rotateY(440deg) rotateZ(-396deg) translateZ(-785px);
+        transform: translate(-50%, -50%) rotateX(-318deg) rotateY(246deg) rotateZ(225deg) translateZ(-105px);
     }
     90% {
         opacity: 1;
@@ -4097,11 +4097,11 @@ div {
 @keyframes fly87 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(93deg) rotateY(440deg) rotateZ(-396deg) translateZ(-785px);
+        transform: translate(-50%, -50%) rotateX(-318deg) rotateY(246deg) rotateZ(225deg) translateZ(-105px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(93deg) rotateY(440deg) rotateZ(-396deg) translateZ(-785px);
+        transform: translate(-50%, -50%) rotateX(-318deg) rotateY(246deg) rotateZ(225deg) translateZ(-105px);
     }
     90% {
         opacity: 1;
@@ -4117,7 +4117,7 @@ div {
     color: #4f06ff;
     -webkit-clip-path: polygon(30% 200%, 40% 200%, 40% 250%);
     clip-path: polygon(30% 200%, 40% 200%, 40% 250%);
-    transform-origin: 55% 177%;
+    transform-origin: -2% 211%;
     -webkit-animation: fly88 5000ms 3480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly88 5000ms 3480ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4125,11 +4125,11 @@ div {
 @-webkit-keyframes fly88 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(255deg) rotateZ(193deg) translateZ(-857px);
+        transform: translate(-50%, -50%) rotateX(469deg) rotateY(6deg) rotateZ(10deg) translateZ(-829px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(255deg) rotateZ(193deg) translateZ(-857px);
+        transform: translate(-50%, -50%) rotateX(469deg) rotateY(6deg) rotateZ(10deg) translateZ(-829px);
     }
     90% {
         opacity: 1;
@@ -4144,11 +4144,11 @@ div {
 @keyframes fly88 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(255deg) rotateZ(193deg) translateZ(-857px);
+        transform: translate(-50%, -50%) rotateX(469deg) rotateY(6deg) rotateZ(10deg) translateZ(-829px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(204deg) rotateY(255deg) rotateZ(193deg) translateZ(-857px);
+        transform: translate(-50%, -50%) rotateX(469deg) rotateY(6deg) rotateZ(10deg) translateZ(-829px);
     }
     90% {
         opacity: 1;
@@ -4164,7 +4164,7 @@ div {
     color: #4d06ff;
     -webkit-clip-path: polygon(40% 200%, 40% 250%, 50% 250%);
     clip-path: polygon(40% 200%, 40% 250%, 50% 250%);
-    transform-origin: -4% 249%;
+    transform-origin: 67% 241%;
     -webkit-animation: fly89 5000ms 3520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly89 5000ms 3520ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4172,11 +4172,11 @@ div {
 @-webkit-keyframes fly89 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(311deg) rotateY(198deg) rotateZ(-25deg) translateZ(-2361px);
+        transform: translate(-50%, -50%) rotateX(273deg) rotateY(449deg) rotateZ(-190deg) translateZ(-682px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(311deg) rotateY(198deg) rotateZ(-25deg) translateZ(-2361px);
+        transform: translate(-50%, -50%) rotateX(273deg) rotateY(449deg) rotateZ(-190deg) translateZ(-682px);
     }
     90% {
         opacity: 1;
@@ -4191,11 +4191,11 @@ div {
 @keyframes fly89 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(311deg) rotateY(198deg) rotateZ(-25deg) translateZ(-2361px);
+        transform: translate(-50%, -50%) rotateX(273deg) rotateY(449deg) rotateZ(-190deg) translateZ(-682px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(311deg) rotateY(198deg) rotateZ(-25deg) translateZ(-2361px);
+        transform: translate(-50%, -50%) rotateX(273deg) rotateY(449deg) rotateZ(-190deg) translateZ(-682px);
     }
     90% {
         opacity: 1;
@@ -4211,7 +4211,7 @@ div {
     color: #4b05ff;
     -webkit-clip-path: polygon(40% 200%, 50% 200%, 50% 250%);
     clip-path: polygon(40% 200%, 50% 200%, 50% 250%);
-    transform-origin: 38% 177%;
+    transform-origin: 88% 182%;
     -webkit-animation: fly90 5000ms 3560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly90 5000ms 3560ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4219,11 +4219,11 @@ div {
 @-webkit-keyframes fly90 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-174deg) rotateY(458deg) rotateZ(-448deg) translateZ(-2323px);
+        transform: translate(-50%, -50%) rotateX(497deg) rotateY(300deg) rotateZ(-469deg) translateZ(482px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-174deg) rotateY(458deg) rotateZ(-448deg) translateZ(-2323px);
+        transform: translate(-50%, -50%) rotateX(497deg) rotateY(300deg) rotateZ(-469deg) translateZ(482px);
     }
     90% {
         opacity: 1;
@@ -4238,11 +4238,11 @@ div {
 @keyframes fly90 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-174deg) rotateY(458deg) rotateZ(-448deg) translateZ(-2323px);
+        transform: translate(-50%, -50%) rotateX(497deg) rotateY(300deg) rotateZ(-469deg) translateZ(482px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-174deg) rotateY(458deg) rotateZ(-448deg) translateZ(-2323px);
+        transform: translate(-50%, -50%) rotateX(497deg) rotateY(300deg) rotateZ(-469deg) translateZ(482px);
     }
     90% {
         opacity: 1;
@@ -4258,7 +4258,7 @@ div {
     color: #4905ff;
     -webkit-clip-path: polygon(50% 200%, 50% 250%, 60% 250%);
     clip-path: polygon(50% 200%, 50% 250%, 60% 250%);
-    transform-origin: 9% 229%;
+    transform-origin: 57% 159%;
     -webkit-animation: fly91 5000ms 3600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly91 5000ms 3600ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4266,11 +4266,11 @@ div {
 @-webkit-keyframes fly91 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(478deg) rotateY(-27deg) rotateZ(-199deg) translateZ(-956px);
+        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-313deg) rotateZ(-466deg) translateZ(-1602px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(478deg) rotateY(-27deg) rotateZ(-199deg) translateZ(-956px);
+        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-313deg) rotateZ(-466deg) translateZ(-1602px);
     }
     90% {
         opacity: 1;
@@ -4285,11 +4285,11 @@ div {
 @keyframes fly91 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(478deg) rotateY(-27deg) rotateZ(-199deg) translateZ(-956px);
+        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-313deg) rotateZ(-466deg) translateZ(-1602px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(478deg) rotateY(-27deg) rotateZ(-199deg) translateZ(-956px);
+        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-313deg) rotateZ(-466deg) translateZ(-1602px);
     }
     90% {
         opacity: 1;
@@ -4305,7 +4305,7 @@ div {
     color: #4704ff;
     -webkit-clip-path: polygon(50% 200%, 60% 200%, 60% 250%);
     clip-path: polygon(50% 200%, 60% 200%, 60% 250%);
-    transform-origin: 8% 190%;
+    transform-origin: 1% 227%;
     -webkit-animation: fly92 5000ms 3640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly92 5000ms 3640ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4313,11 +4313,11 @@ div {
 @-webkit-keyframes fly92 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-246deg) rotateZ(415deg) translateZ(-2382px);
+        transform: translate(-50%, -50%) rotateX(426deg) rotateY(-27deg) rotateZ(280deg) translateZ(-1926px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-246deg) rotateZ(415deg) translateZ(-2382px);
+        transform: translate(-50%, -50%) rotateX(426deg) rotateY(-27deg) rotateZ(280deg) translateZ(-1926px);
     }
     90% {
         opacity: 1;
@@ -4332,11 +4332,11 @@ div {
 @keyframes fly92 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-246deg) rotateZ(415deg) translateZ(-2382px);
+        transform: translate(-50%, -50%) rotateX(426deg) rotateY(-27deg) rotateZ(280deg) translateZ(-1926px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-408deg) rotateY(-246deg) rotateZ(415deg) translateZ(-2382px);
+        transform: translate(-50%, -50%) rotateX(426deg) rotateY(-27deg) rotateZ(280deg) translateZ(-1926px);
     }
     90% {
         opacity: 1;
@@ -4352,7 +4352,7 @@ div {
     color: #4504ff;
     -webkit-clip-path: polygon(60% 200%, 60% 250%, 70% 250%);
     clip-path: polygon(60% 200%, 60% 250%, 70% 250%);
-    transform-origin: 54% 207%;
+    transform-origin: 20% 173%;
     -webkit-animation: fly93 5000ms 3680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly93 5000ms 3680ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4360,11 +4360,11 @@ div {
 @-webkit-keyframes fly93 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(216deg) rotateY(373deg) rotateZ(-36deg) translateZ(-913px);
+        transform: translate(-50%, -50%) rotateX(-240deg) rotateY(-272deg) rotateZ(467deg) translateZ(-1137px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(216deg) rotateY(373deg) rotateZ(-36deg) translateZ(-913px);
+        transform: translate(-50%, -50%) rotateX(-240deg) rotateY(-272deg) rotateZ(467deg) translateZ(-1137px);
     }
     90% {
         opacity: 1;
@@ -4379,11 +4379,11 @@ div {
 @keyframes fly93 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(216deg) rotateY(373deg) rotateZ(-36deg) translateZ(-913px);
+        transform: translate(-50%, -50%) rotateX(-240deg) rotateY(-272deg) rotateZ(467deg) translateZ(-1137px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(216deg) rotateY(373deg) rotateZ(-36deg) translateZ(-913px);
+        transform: translate(-50%, -50%) rotateX(-240deg) rotateY(-272deg) rotateZ(467deg) translateZ(-1137px);
     }
     90% {
         opacity: 1;
@@ -4399,7 +4399,7 @@ div {
     color: #4303ff;
     -webkit-clip-path: polygon(60% 200%, 70% 200%, 70% 250%);
     clip-path: polygon(60% 200%, 70% 200%, 70% 250%);
-    transform-origin: 72% 240%;
+    transform-origin: 32% 200%;
     -webkit-animation: fly94 5000ms 3720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly94 5000ms 3720ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4407,11 +4407,11 @@ div {
 @-webkit-keyframes fly94 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(108deg) rotateY(-333deg) rotateZ(-136deg) translateZ(120px);
+        transform: translate(-50%, -50%) rotateX(42deg) rotateY(162deg) rotateZ(11deg) translateZ(-2124px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(108deg) rotateY(-333deg) rotateZ(-136deg) translateZ(120px);
+        transform: translate(-50%, -50%) rotateX(42deg) rotateY(162deg) rotateZ(11deg) translateZ(-2124px);
     }
     90% {
         opacity: 1;
@@ -4426,11 +4426,11 @@ div {
 @keyframes fly94 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(108deg) rotateY(-333deg) rotateZ(-136deg) translateZ(120px);
+        transform: translate(-50%, -50%) rotateX(42deg) rotateY(162deg) rotateZ(11deg) translateZ(-2124px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(108deg) rotateY(-333deg) rotateZ(-136deg) translateZ(120px);
+        transform: translate(-50%, -50%) rotateX(42deg) rotateY(162deg) rotateZ(11deg) translateZ(-2124px);
     }
     90% {
         opacity: 1;
@@ -4446,7 +4446,7 @@ div {
     color: #4103ff;
     -webkit-clip-path: polygon(70% 200%, 70% 250%, 80% 250%);
     clip-path: polygon(70% 200%, 70% 250%, 80% 250%);
-    transform-origin: 67% 246%;
+    transform-origin: 50% 178%;
     -webkit-animation: fly95 5000ms 3760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly95 5000ms 3760ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4454,11 +4454,11 @@ div {
 @-webkit-keyframes fly95 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-471deg) rotateY(234deg) rotateZ(-337deg) translateZ(-1194px);
+        transform: translate(-50%, -50%) rotateX(-305deg) rotateY(-3deg) rotateZ(393deg) translateZ(-281px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-471deg) rotateY(234deg) rotateZ(-337deg) translateZ(-1194px);
+        transform: translate(-50%, -50%) rotateX(-305deg) rotateY(-3deg) rotateZ(393deg) translateZ(-281px);
     }
     90% {
         opacity: 1;
@@ -4473,11 +4473,11 @@ div {
 @keyframes fly95 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-471deg) rotateY(234deg) rotateZ(-337deg) translateZ(-1194px);
+        transform: translate(-50%, -50%) rotateX(-305deg) rotateY(-3deg) rotateZ(393deg) translateZ(-281px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-471deg) rotateY(234deg) rotateZ(-337deg) translateZ(-1194px);
+        transform: translate(-50%, -50%) rotateX(-305deg) rotateY(-3deg) rotateZ(393deg) translateZ(-281px);
     }
     90% {
         opacity: 1;
@@ -4493,7 +4493,7 @@ div {
     color: #3f02ff;
     -webkit-clip-path: polygon(70% 200%, 80% 200%, 80% 250%);
     clip-path: polygon(70% 200%, 80% 200%, 80% 250%);
-    transform-origin: 21% 157%;
+    transform-origin: 97% 185%;
     -webkit-animation: fly96 5000ms 3800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly96 5000ms 3800ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4501,11 +4501,11 @@ div {
 @-webkit-keyframes fly96 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(182deg) rotateY(422deg) rotateZ(35deg) translateZ(-1961px);
+        transform: translate(-50%, -50%) rotateX(-167deg) rotateY(-223deg) rotateZ(367deg) translateZ(-1334px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(182deg) rotateY(422deg) rotateZ(35deg) translateZ(-1961px);
+        transform: translate(-50%, -50%) rotateX(-167deg) rotateY(-223deg) rotateZ(367deg) translateZ(-1334px);
     }
     90% {
         opacity: 1;
@@ -4520,11 +4520,11 @@ div {
 @keyframes fly96 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(182deg) rotateY(422deg) rotateZ(35deg) translateZ(-1961px);
+        transform: translate(-50%, -50%) rotateX(-167deg) rotateY(-223deg) rotateZ(367deg) translateZ(-1334px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(182deg) rotateY(422deg) rotateZ(35deg) translateZ(-1961px);
+        transform: translate(-50%, -50%) rotateX(-167deg) rotateY(-223deg) rotateZ(367deg) translateZ(-1334px);
     }
     90% {
         opacity: 1;
@@ -4540,7 +4540,7 @@ div {
     color: #3d02ff;
     -webkit-clip-path: polygon(80% 200%, 80% 250%, 90% 250%);
     clip-path: polygon(80% 200%, 80% 250%, 90% 250%);
-    transform-origin: 97% 160%;
+    transform-origin: 102% 167%;
     -webkit-animation: fly97 5000ms 3840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly97 5000ms 3840ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4548,11 +4548,11 @@ div {
 @-webkit-keyframes fly97 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-115deg) rotateY(-252deg) rotateZ(297deg) translateZ(-977px);
+        transform: translate(-50%, -50%) rotateX(190deg) rotateY(329deg) rotateZ(199deg) translateZ(-565px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-115deg) rotateY(-252deg) rotateZ(297deg) translateZ(-977px);
+        transform: translate(-50%, -50%) rotateX(190deg) rotateY(329deg) rotateZ(199deg) translateZ(-565px);
     }
     90% {
         opacity: 1;
@@ -4567,11 +4567,11 @@ div {
 @keyframes fly97 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-115deg) rotateY(-252deg) rotateZ(297deg) translateZ(-977px);
+        transform: translate(-50%, -50%) rotateX(190deg) rotateY(329deg) rotateZ(199deg) translateZ(-565px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-115deg) rotateY(-252deg) rotateZ(297deg) translateZ(-977px);
+        transform: translate(-50%, -50%) rotateX(190deg) rotateY(329deg) rotateZ(199deg) translateZ(-565px);
     }
     90% {
         opacity: 1;
@@ -4587,7 +4587,7 @@ div {
     color: #3b01ff;
     -webkit-clip-path: polygon(80% 200%, 90% 200%, 90% 250%);
     clip-path: polygon(80% 200%, 90% 200%, 90% 250%);
-    transform-origin: 90% 166%;
+    transform-origin: 129% 213%;
     -webkit-animation: fly98 5000ms 3880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly98 5000ms 3880ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4595,11 +4595,11 @@ div {
 @-webkit-keyframes fly98 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(291deg) rotateY(-369deg) rotateZ(-327deg) translateZ(-597px);
+        transform: translate(-50%, -50%) rotateX(-144deg) rotateY(377deg) rotateZ(-39deg) translateZ(380px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(291deg) rotateY(-369deg) rotateZ(-327deg) translateZ(-597px);
+        transform: translate(-50%, -50%) rotateX(-144deg) rotateY(377deg) rotateZ(-39deg) translateZ(380px);
     }
     90% {
         opacity: 1;
@@ -4614,11 +4614,11 @@ div {
 @keyframes fly98 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(291deg) rotateY(-369deg) rotateZ(-327deg) translateZ(-597px);
+        transform: translate(-50%, -50%) rotateX(-144deg) rotateY(377deg) rotateZ(-39deg) translateZ(380px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(291deg) rotateY(-369deg) rotateZ(-327deg) translateZ(-597px);
+        transform: translate(-50%, -50%) rotateX(-144deg) rotateY(377deg) rotateZ(-39deg) translateZ(380px);
     }
     90% {
         opacity: 1;
@@ -4634,7 +4634,7 @@ div {
     color: #3901ff;
     -webkit-clip-path: polygon(90% 200%, 90% 250%, 100% 250%);
     clip-path: polygon(90% 200%, 90% 250%, 100% 250%);
-    transform-origin: 96% 161%;
+    transform-origin: 134% 198%;
     -webkit-animation: fly99 5000ms 3920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly99 5000ms 3920ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4642,11 +4642,11 @@ div {
 @-webkit-keyframes fly99 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-443deg) rotateY(-474deg) rotateZ(-224deg) translateZ(-2285px);
+        transform: translate(-50%, -50%) rotateX(260deg) rotateY(396deg) rotateZ(41deg) translateZ(-128px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-443deg) rotateY(-474deg) rotateZ(-224deg) translateZ(-2285px);
+        transform: translate(-50%, -50%) rotateX(260deg) rotateY(396deg) rotateZ(41deg) translateZ(-128px);
     }
     90% {
         opacity: 1;
@@ -4661,11 +4661,11 @@ div {
 @keyframes fly99 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-443deg) rotateY(-474deg) rotateZ(-224deg) translateZ(-2285px);
+        transform: translate(-50%, -50%) rotateX(260deg) rotateY(396deg) rotateZ(41deg) translateZ(-128px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-443deg) rotateY(-474deg) rotateZ(-224deg) translateZ(-2285px);
+        transform: translate(-50%, -50%) rotateX(260deg) rotateY(396deg) rotateZ(41deg) translateZ(-128px);
     }
     90% {
         opacity: 1;
@@ -4681,7 +4681,7 @@ div {
     color: #3700ff;
     -webkit-clip-path: polygon(90% 200%, 100% 200%, 100% 250%);
     clip-path: polygon(90% 200%, 100% 200%, 100% 250%);
-    transform-origin: 94% 222%;
+    transform-origin: 117% 217%;
     -webkit-animation: fly100 5000ms 3960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly100 5000ms 3960ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4689,11 +4689,11 @@ div {
 @-webkit-keyframes fly100 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-377deg) rotateY(-191deg) rotateZ(50deg) translateZ(-445px);
+        transform: translate(-50%, -50%) rotateX(461deg) rotateY(-76deg) rotateZ(482deg) translateZ(-2464px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-377deg) rotateY(-191deg) rotateZ(50deg) translateZ(-445px);
+        transform: translate(-50%, -50%) rotateX(461deg) rotateY(-76deg) rotateZ(482deg) translateZ(-2464px);
     }
     90% {
         opacity: 1;
@@ -4708,11 +4708,11 @@ div {
 @keyframes fly100 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-377deg) rotateY(-191deg) rotateZ(50deg) translateZ(-445px);
+        transform: translate(-50%, -50%) rotateX(461deg) rotateY(-76deg) rotateZ(482deg) translateZ(-2464px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-377deg) rotateY(-191deg) rotateZ(50deg) translateZ(-445px);
+        transform: translate(-50%, -50%) rotateX(461deg) rotateY(-76deg) rotateZ(482deg) translateZ(-2464px);
     }
     90% {
         opacity: 1;
@@ -4728,7 +4728,7 @@ div {
     color: #3500ff;
     -webkit-clip-path: polygon(0% 250%, 0% 300%, 10% 300%);
     clip-path: polygon(0% 250%, 0% 300%, 10% 300%);
-    transform-origin: -11% 259%;
+    transform-origin: 45% 284%;
     -webkit-animation: fly101 5000ms 4000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
     animation: fly101 5000ms 4000ms cubic-bezier(0.36, 0.1, 0.16, 1) infinite alternate;
 }
@@ -4736,11 +4736,11 @@ div {
 @-webkit-keyframes fly101 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-145deg) rotateY(107deg) rotateZ(227deg) translateZ(-955px);
+        transform: translate(-50%, -50%) rotateX(376deg) rotateY(-180deg) rotateZ(-70deg) translateZ(241px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-145deg) rotateY(107deg) rotateZ(227deg) translateZ(-955px);
+        transform: translate(-50%, -50%) rotateX(376deg) rotateY(-180deg) rotateZ(-70deg) translateZ(241px);
     }
     90% {
         opacity: 1;
@@ -4755,11 +4755,11 @@ div {
 @keyframes fly101 {
     0% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-145deg) rotateY(107deg) rotateZ(227deg) translateZ(-955px);
+        transform: translate(-50%, -50%) rotateX(376deg) rotateY(-180deg) rotateZ(-70deg) translateZ(241px);
     }
     10% {
         opacity: 0;
-        transform: translate(-50%, -50%) rotateX(-145deg) rotateY(107deg) rotateZ(227deg) translateZ(-955px);
+        transform: translate(-50%, -50%) rotateX(376deg) rotateY(-180deg) rotateZ(-70deg) translateZ(241px);
     }
     90% {
         opacity: 1;
